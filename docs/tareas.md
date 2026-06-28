@@ -1,32 +1,24 @@
 # Tareas Técnicas Pendientes — Chatbot idappi
 
 ## Prioridad Alta
-- [ ] Descargar transcripciones restantes de Biología (20 videos, cuando Vimeo termine de procesar)
-- [ ] Procesar timestamps de Biología restantes con Claude
-- [ ] Compartir link del chatbot con alumnos para prueba piloto
+- [ ] Descargar ~55 archivos .vtt desde Vimeo (ver videos_pendientes.md)
+- [ ] Procesar timestamps pendientes con Claude
+- [ ] Subir precisión Biología y Física a ~98%
 
 ## Prioridad Media
-- [ ] Agregar curso Física UCV
-- [ ] Agregar curso Anatomía Humana UCV
-- [ ] Personalizar URL del chatbot (cambiar hash por nombre legible)
-- [ ] Agregar botón de feedback ("¿te sirvió?")
-- [ ] Dashboard de analytics con Google Sheets
+- [ ] Agregar Anatomía Humana UCV
+- [ ] URL personalizada del chatbot
+- [ ] Dashboard de analytics
 
 ## Prioridad Baja
-- [ ] Embeber chatbot en idappi.com como widget WordPress
+- [ ] Widget embebido en idappi.com
 - [ ] Caché de respuestas frecuentes
-- [ ] Modo offline con TF-IDF como fallback
+- [ ] Botón de feedback
 
 ## Completadas
-- [x] Extraer curso Química UCV (87 pasos, 70 temas)
-- [x] Base de datos Química (96 registros con URLs, keywords, contenido verificado)
-- [x] Extraer Vimeo IDs y transcripciones Química (66 videos)
-- [x] Timestamps Química (465 subtemas con minuto exacto)
-- [x] Extraer curso Biología UCV (42 pasos, 30 temas)
-- [x] Base de datos Biología (41 registros)
-- [x] Activar subtítulos AI en Vimeo para Biología
-- [x] Timestamps parciales Biología (9 videos, 52 subtemas)
-- [x] Chatbot web con diseño profesional
-- [x] Tracking a Google Sheets
-- [x] Deploy en Streamlit Community Cloud
-- [x] GitHub repo público (victorchespi123/chatbot-idappi)
+- [x] Química UCV: 96 registros + 465 timestamps ✅
+- [x] Biología UCV: 41 registros + 52 timestamps (parcial) ✅
+- [x] Física UCV: 57 registros + 102 timestamps (parcial) ✅
+- [x] Chatbot con 3 cursos, diseño profesional ✅
+- [x] Deploy Streamlit Cloud + tracking Google Sheets ✅
+- [x] GitHub repo público ✅
