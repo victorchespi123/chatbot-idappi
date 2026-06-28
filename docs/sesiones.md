@@ -51,14 +51,29 @@
 - Solución: descargar manualmente los .vtt desde Vimeo y procesarlos.
 - Se creó `docs/videos_pendientes.md` con la lista completa (~55 videos).
 
+### Bug encontrado y resuelto: Física no respondía
+- Al agregar Física, el chatbot decía "ese curso no está disponible" para preguntas de Física.
+- Causa: el contexto total era 121K chars — demasiado para que Claude procesara bien.
+- Fix: optimizar contexto (truncar keywords a 150 chars, condensar timestamps en una línea por video).
+- Contexto bajó de 121K a ~60K chars. Física empezó a funcionar correctamente.
+- Se identificó que esta solución es temporal — necesitamos RAG para escalar a más cursos.
+
+### Plan de escalabilidad definido
+- Migrar a RAG (Retrieval-Augmented Generation) antes de agregar más cursos.
+- Paso 1: búsqueda local (TF-IDF/embeddings) para encontrar los 5-10 registros más relevantes.
+- Paso 2: pasar solo esos registros a Claude para armar la respuesta.
+- Beneficio: contexto baja de 60K a ~2K chars, escala a 20+ cursos sin problema.
+
 **Estado final**:
 - 3 cursos integrados, 194 registros totales.
 - 90 videos con timestamps, 619 subtemas mapeados.
-- App live en Streamlit Cloud.
+- App live en Streamlit Cloud — los 3 cursos funcionan correctamente.
 - Precisión: Química ~98%, Biología ~90%, Física ~90%.
+- Alumnos pueden usarlo desde: https://3aumyb4fsk33dnabmhqnjy.streamlit.app
 
 **Próximos pasos**:
+- Implementar RAG para escalabilidad (ANTES de agregar más cursos).
 - Descargar manualmente los .vtt de los ~55 videos pendientes desde Vimeo.
 - Procesarlos con Claude para completar timestamps.
 - Subir precisión de Biología y Física a ~98%.
-- Considerar agregar Anatomía Humana UCV.
+- Agregar Anatomía Humana UCV (después de RAG).
