@@ -310,8 +310,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-@st.cache_data
-def load_database():
+@st.cache_data(ttl=3600)
+def load_database(_version=3):
     wb = openpyxl.load_workbook(EXCEL_PATH, read_only=True)
     records = []
     sheets = [
