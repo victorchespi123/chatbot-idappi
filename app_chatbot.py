@@ -349,20 +349,17 @@ def build_db_context(_records, _timestamps_json):
     lines = []
     for r in _records:
         curso = r.get('curso', '')
+        kw = (r['keywords'] or '')[:150]
         lines.append(f"[{r['tipo']}] [{curso}] {r['nombre_completo']}")
-        lines.append(f"  Keywords: {r['keywords']}")
-        lines.append(f"  Desc: {r['descripcion']}")
+        lines.append(f"  KW: {kw}")
         lines.append(f"  URL: {r['url']}")
         lines.append("")
 
     if timestamps:
-        lines.append("\n=== TIMESTAMPS DE VIDEOS ===")
-        lines.append("Cada video tiene subtemas con el minuto exacto donde se explican:\n")
+        lines.append("\nTIMESTAMPS:")
         for vid, data in timestamps.items():
-            lines.append(f"Video: {data['title']}")
-            for t in data['timestamps']:
-                lines.append(f"  {t['tiempo']} → {t['subtema']}")
-            lines.append("")
+            subtemas = ", ".join(f"{t['tiempo']}={t['subtema']}" for t in data['timestamps'])
+            lines.append(f"{data['title']}: {subtemas}")
 
     return "\n".join(lines)
 
