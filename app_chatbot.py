@@ -317,6 +317,7 @@ def load_database():
     sheets = [
         ("Base de Datos Química UCV", "Química UCV"),
         ("Base de Datos Biología UCV", "Biología UCV"),
+        ("Base de Datos Física UCV", "Física UCV"),
     ]
     for sheet_name, curso in sheets:
         if sheet_name not in wb.sheetnames:
@@ -372,6 +373,7 @@ Ayudás a los alumnos a encontrar el contenido exacto que necesitan en los curso
 CURSOS DISPONIBLES:
 - Química UCV (química inorgánica y orgánica)
 - Biología UCV (biología celular y molecular)
+- Física UCV (magnitudes, vectores, cinemática, dinámica, hidrostática, óptica)
 
 REGLAS:
 1. Respondé en español, tono profesional pero cercano.
@@ -404,7 +406,7 @@ st.markdown(f"""
     <div class="app-logo">⚗️</div>
     <div>
         <div class="app-title">Asistente Académico</div>
-        <div class="app-subtitle">Química · Biología — idappi.com</div>
+        <div class="app-subtitle">Química · Biología · Física — idappi.com</div>
     </div>
     <div class="app-badge">v1.0</div>
 </div>
@@ -432,10 +434,10 @@ if not st.session_state.messages:
         <div class="suggestions">
             <div class="suggestion">Molaridad</div>
             <div class="suggestion">Estructura de Lewis</div>
-            <div class="suggestion">pH</div>
             <div class="suggestion">Mitosis y Meiosis</div>
-            <div class="suggestion">Fotosíntesis</div>
-            <div class="suggestion">Carbohidratos</div>
+            <div class="suggestion">Leyes de Newton</div>
+            <div class="suggestion">Caída Libre</div>
+            <div class="suggestion">Presión hidrostática</div>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -486,6 +488,11 @@ with st.sidebar:
     st.markdown("### Biología UCV")
     for r in records:
         if r['tipo'] == 'Lección' and r.get('curso') == 'Biología UCV':
+            st.markdown(f"[{r['leccion']}]({r['url']})")
+    st.markdown("---")
+    st.markdown("### Física UCV")
+    for r in records:
+        if r['tipo'] == 'Lección' and r.get('curso') == 'Física UCV':
             st.markdown(f"[{r['leccion']}]({r['url']})")
     st.markdown("---")
     st.caption("idappi.com — Plataforma educativa")
