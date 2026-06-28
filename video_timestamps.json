@@ -2441,5 +2441,488 @@
         "subtema": "No se puede analizar: la transcripción no corresponde al video de Genética del curso de Biología UCV, sino a un contenido sobre programas de drones para niños en Florida."
       }
     ]
+  },
+  "1131166622": {
+    "title": "[Física] Energía",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y presentación del tema de energía"
+      },
+      {
+        "tiempo": "00:55",
+        "subtema": "Relación entre energía, trabajo y calor (unidad de medida: Joule)"
+      },
+      {
+        "tiempo": "02:02",
+        "subtema": "Tipos de energía: cinética y potencial gravitatoria"
+      },
+      {
+        "tiempo": "02:58",
+        "subtema": "Fórmulas de energía cinética y energía potencial"
+      },
+      {
+        "tiempo": "04:19",
+        "subtema": "Energía mecánica: suma de energía cinética y potencial"
+      },
+      {
+        "tiempo": "05:06",
+        "subtema": "Situaciones de ganancia, pérdida y conservación de energía"
+      },
+      {
+        "tiempo": "06:21",
+        "subtema": "Ecuaciones para cada situación energética (ganancia, pérdida y conservación)"
+      }
+    ]
+  },
+  "1131172382": {
+    "title": "[Física] Trabajo y Potencia",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción al tema de Trabajo y Potencia"
+      },
+      {
+        "tiempo": "00:22",
+        "subtema": "Definición de Trabajo y concepto de escalar"
+      },
+      {
+        "tiempo": "01:14",
+        "subtema": "Unidad de medida del Trabajo (Joule) y fórmula básica"
+      },
+      {
+        "tiempo": "02:43",
+        "subtema": "Fórmula general del Trabajo con ángulo (W = F·cos θ·d)"
+      },
+      {
+        "tiempo": "03:31",
+        "subtema": "Ejemplo de cálculo de Trabajo con ángulo de 0 grados"
+      },
+      {
+        "tiempo": "04:07",
+        "subtema": "Ejemplo de cálculo de Trabajo con ángulo de 60 grados"
+      },
+      {
+        "tiempo": "05:58",
+        "subtema": "Trabajo del peso (W = m·g·h)"
+      }
+    ]
+  },
+  "1149259574": {
+    "title": "[Física] Gráficos Posición vs Tiempo MRU",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a los gráficos del movimiento rectilíneo"
+      },
+      {
+        "tiempo": "00:28",
+        "subtema": "Tipos de gráficos del MRU: posición vs tiempo y velocidad vs tiempo"
+      },
+      {
+        "tiempo": "00:47",
+        "subtema": "Características del gráfico posición vs tiempo (ejes y unidades)"
+      },
+      {
+        "tiempo": "02:07",
+        "subtema": "Primera característica: recta oblicua e identificación del MRU"
+      },
+      {
+        "tiempo": "03:03",
+        "subtema": "Interpretación de la dirección de la recta: movimiento progresivo y regresivo"
+      },
+      {
+        "tiempo": "04:06",
+        "subtema": "Segunda característica: intersección con el eje de posición indica posición inicial"
+      },
+      {
+        "tiempo": "05:14",
+        "subtema": "Tercera característica: intersección con el eje del tiempo indica posición cero"
+      },
+      {
+        "tiempo": "05:48",
+        "subtema": "Fórmula de la ecuación horaria de posición del MRU"
+      },
+      {
+        "tiempo": "06:02",
+        "subtema": "Tip para resolución de problemas: hallar componentes de la ecuación horaria"
+      },
+      {
+        "tiempo": "06:58",
+        "subtema": "Ejemplo práctico: cómo hallar posición inicial y velocidad desde el gráfico"
+      }
+    ]
+  },
+  "1149260547": {
+    "title": "[Física] Gráfico Posición vs Tiempo MRUV",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y presentación de los tres gráficos del MRUV"
+      },
+      {
+        "tiempo": "00:33",
+        "subtema": "Gráfico de Posición vs Tiempo en MRUV: característica de la parábola"
+      },
+      {
+        "tiempo": "01:34",
+        "subtema": "Intersección de la parábola con el eje de posición: posición inicial"
+      },
+      {
+        "tiempo": "02:04",
+        "subtema": "Intersección de la parábola con el eje del tiempo: posición cero"
+      },
+      {
+        "tiempo": "03:01",
+        "subtema": "Punto máximo o mínimo de la parábola: cambio de sentido y velocidad cero"
+      },
+      {
+        "tiempo": "03:55",
+        "subtema": "Análisis del movimiento progresivo y regresivo a partir del gráfico"
+      },
+      {
+        "tiempo": "06:11",
+        "subtema": "La tangente en un punto de la parábola como indicador de la velocidad"
+      }
+    ]
+  },
+  "1149260982": {
+    "title": "[Física] Gráfico Velocidad vs Tiempo MRU",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción al gráfico de Velocidad vs Tiempo en el MRU"
+      },
+      {
+        "tiempo": "00:49",
+        "subtema": "Característica principal: línea recta sin inclinación y velocidad constante"
+      },
+      {
+        "tiempo": "01:15",
+        "subtema": "Estructura del gráfico: ejes, unidades de medida y forma de la recta"
+      },
+      {
+        "tiempo": "02:00",
+        "subtema": "Interpretación de la posición de la recta: velocidad positiva o negativa"
+      },
+      {
+        "tiempo": "03:00",
+        "subtema": "El área bajo la curva como representación del desplazamiento"
+      }
+    ]
+  },
+  "1185288003": {
+    "title": "[Física] Aceleración dentro de un Líquido",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y repaso de conceptos previos (empuje y peso)"
+      },
+      {
+        "tiempo": "01:26",
+        "subtema": "Casos de objetos no en equilibrio dentro de un líquido"
+      },
+      {
+        "tiempo": "01:58",
+        "subtema": "Caso 1: El objeto se hunde (peso mayor que empuje)"
+      },
+      {
+        "tiempo": "03:30",
+        "subtema": "Derivación de la fórmula de aceleración dentro de un líquido"
+      },
+      {
+        "tiempo": "06:39",
+        "subtema": "Caso 2: El objeto sube (ascenso dentro del líquido)"
+      },
+      {
+        "tiempo": "08:20",
+        "subtema": "Introducción al concepto de peso aparente"
+      }
+    ]
+  },
+  "1185654569": {
+    "title": "[Física] Densidad de un Líquido",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la hidrostática"
+      },
+      {
+        "tiempo": "00:00:36",
+        "subtema": "Definición de densidad y su fórmula"
+      },
+      {
+        "tiempo": "00:01:10",
+        "subtema": "Unidades de medida de la densidad (SI y CGS)"
+      },
+      {
+        "tiempo": "00:02:20",
+        "subtema": "Conversión entre unidades de densidad"
+      },
+      {
+        "tiempo": "00:02:57",
+        "subtema": "Densidad del agua como constante conocida"
+      },
+      {
+        "tiempo": "00:04:00",
+        "subtema": "Densidad de mezcla de líquidos"
+      },
+      {
+        "tiempo": "00:06:31",
+        "subtema": "Resumen y cierre"
+      }
+    ]
+  },
+  "1194537695": {
+    "title": "[Física] MRU Conceptos Claves",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la Cinemática"
+      },
+      {
+        "tiempo": "01:00",
+        "subtema": "Presentación del Movimiento Rectilíneo Uniforme (MRU)"
+      },
+      {
+        "tiempo": "01:46",
+        "subtema": "Primera característica: Velocidad constante"
+      },
+      {
+        "tiempo": "04:22",
+        "subtema": "Segunda característica: Aceleración nula o cero"
+      },
+      {
+        "tiempo": "06:26",
+        "subtema": "Tercera característica: Recorre espacios iguales en tiempos iguales"
+      },
+      {
+        "tiempo": "07:43",
+        "subtema": "Resumen de las tres características del MRU"
+      }
+    ]
+  },
+  "1194537697": {
+    "title": "[Física] Sistema de Referencia y Velocidad Media",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y presentación del video"
+      },
+      {
+        "tiempo": "00:29",
+        "subtema": "Sistema de referencia y eje de coordenadas"
+      },
+      {
+        "tiempo": "02:00",
+        "subtema": "Definición de origen y posiciones positivas y negativas"
+      },
+      {
+        "tiempo": "03:02",
+        "subtema": "Ejemplos de posición con personas A, B, C y D"
+      },
+      {
+        "tiempo": "05:57",
+        "subtema": "Cambio de eje de referencia y recalculo de posiciones"
+      }
+    ]
+  },
+  "1195404039": {
+    "title": "[Física] Cómo se Descompone un Vector",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "La transcripción proporcionada no corresponde al video 'Cómo se Descompone un Vector' del curso de Física UCV. El contenido parece ser un texto de naturaleza religiosa/poética, posiblemente relacionado con el Corán, y no contiene información sobre descomposición de vectores ni conceptos físicos."
+      }
+    ]
+  },
+  "1195404115": {
+    "title": "[Física] Introducción a Vectores",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y bienvenida"
+      },
+      {
+        "tiempo": "00:18",
+        "subtema": "Definición de vector y sus características"
+      },
+      {
+        "tiempo": "01:02",
+        "subtema": "Primera característica: Módulo del vector"
+      },
+      {
+        "tiempo": "02:31",
+        "subtema": "Segunda característica: Dirección del vector"
+      },
+      {
+        "tiempo": "02:41",
+        "subtema": "El plano cartesiano y los ángulos"
+      },
+      {
+        "tiempo": "04:15",
+        "subtema": "Cómo determinar la dirección de un vector respecto al eje X positivo"
+      },
+      {
+        "tiempo": "05:29",
+        "subtema": "Ejemplos de dirección en distintos cuadrantes"
+      }
+    ]
+  },
+  "1196773101": {
+    "title": "[Física] Velocidad Media vs Rapidez Media",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y presentación del tema"
+      },
+      {
+        "tiempo": "00:47",
+        "subtema": "Diferencia entre recorrido y desplazamiento"
+      },
+      {
+        "tiempo": "01:29",
+        "subtema": "Definición de velocidad media vs rapidez media (fórmulas)"
+      },
+      {
+        "tiempo": "02:11",
+        "subtema": "Unidades de medida y conversión entre m/s y km/h"
+      },
+      {
+        "tiempo": "02:53",
+        "subtema": "Tipos de movimiento: progresivo y regresivo/retrógrado"
+      },
+      {
+        "tiempo": "04:57",
+        "subtema": "Ejercicio 1: Ómnibus que recorre 180 km en 2h 30min"
+      },
+      {
+        "tiempo": "08:20",
+        "subtema": "Ejercicio 2: Partícula con trayectoria AB y punto medio M"
+      }
+    ]
+  },
+  "1196773113": {
+    "title": "[Física] Qué es una Resultante",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y presentación del tema"
+      },
+      {
+        "tiempo": "00:27",
+        "subtema": "¿Qué es una resultante? Definición intuitiva"
+      },
+      {
+        "tiempo": "00:42",
+        "subtema": "Ejemplo 1: Una sola fuerza aplicada sobre una caja"
+      },
+      {
+        "tiempo": "01:42",
+        "subtema": "Ejemplo 2: Dos fuerzas en la misma dirección (suma de fuerzas)"
+      },
+      {
+        "tiempo": "02:59",
+        "subtema": "Ejemplo 3: Fuerzas en direcciones opuestas (resta de fuerzas)"
+      },
+      {
+        "tiempo": "04:08",
+        "subtema": "Ejemplo 4: Múltiples fuerzas en ambas direcciones"
+      },
+      {
+        "tiempo": "05:01",
+        "subtema": "Definición formal de resultante: reducir muchas fuerzas a una sola"
+      },
+      {
+        "tiempo": "05:44",
+        "subtema": "Ejemplo 5: Cuatro fuerzas reducidas progresivamente a una sola resultante"
+      },
+      {
+        "tiempo": "08:00",
+        "subtema": "Ejemplo 6: Sistema de siete fuerzas en ambas direcciones"
+      }
+    ]
+  },
+  "1199897567": {
+    "title": "[Física] Resultante Máxima y Mínima",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y presentación del tema"
+      },
+      {
+        "tiempo": "00:30",
+        "subtema": "Concepto de resultante de fuerzas"
+      },
+      {
+        "tiempo": "00:53",
+        "subtema": "Variación de la resultante según el ángulo entre vectores"
+      },
+      {
+        "tiempo": "03:07",
+        "subtema": "Resultante máxima: definición, condición (0°) y cálculo (A + B)"
+      },
+      {
+        "tiempo": "04:49",
+        "subtema": "Resultante mínima: definición, condición (180°) y cálculo (A - B)"
+      },
+      {
+        "tiempo": "06:07",
+        "subtema": "Resumen de reglas clave para resultante máxima y mínima"
+      },
+      {
+        "tiempo": "07:12",
+        "subtema": "Ejercicio práctico: hallar los vectores a partir de la resultante máxima y mínima"
+      }
+    ]
+  },
+  "1201562203": {
+    "title": "[Física] MRUV Velocidad en Función del Tiempo",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y presentación del tema MRUV"
+      },
+      {
+        "tiempo": "00:32",
+        "subtema": "Repaso del Movimiento Rectilíneo Uniforme (MRU) y sus características"
+      },
+      {
+        "tiempo": "00:44",
+        "subtema": "Características del MRUV"
+      },
+      {
+        "tiempo": "01:08",
+        "subtema": "Primera característica: velocidad variable"
+      },
+      {
+        "tiempo": "02:10",
+        "subtema": "Segunda característica: aceleración distinta de cero"
+      },
+      {
+        "tiempo": "03:07",
+        "subtema": "Tercera característica: movimiento acelerado o retardado"
+      },
+      {
+        "tiempo": "03:27",
+        "subtema": "Cuarta característica: recorre espacios diferentes en tiempos iguales"
+      },
+      {
+        "tiempo": "04:06",
+        "subtema": "Rol de la velocidad y la aceleración en el MRUV"
+      },
+      {
+        "tiempo": "04:33",
+        "subtema": "Ejemplo de velocidad creciente con aceleración positiva"
+      },
+      {
+        "tiempo": "06:35",
+        "subtema": "Ejemplo de velocidad decreciente con aceleración negativa (frenado)"
+      },
+      {
+        "tiempo": "08:07",
+        "subtema": "Introducción a la ecuación horaria de velocidad"
+      }
+    ]
   }
 }
