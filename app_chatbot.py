@@ -61,7 +61,7 @@ def log_interaction(sheet, question, answer, session_id):
         pass
 
 st.set_page_config(
-    page_title="idappi — Asistente de Química",
+    page_title="idappi — Asistente Académico",
     page_icon="⚗️",
     layout="centered",
     initial_sidebar_state="collapsed",
@@ -313,16 +313,24 @@ st.markdown("""
 @st.cache_data
 def load_database():
     wb = openpyxl.load_workbook(EXCEL_PATH, read_only=True)
-    ws = wb["Base de Datos Química UCV"]
     records = []
-    for row in ws.iter_rows(min_row=2, values_only=True):
-        if not row[0]:
-            break
-        records.append({
-            "id": row[0], "tipo": row[1], "leccion": row[2],
-            "tema": row[3] or "", "nombre_completo": row[4],
-            "url": row[5], "keywords": row[6], "descripcion": row[7],
-        })
+    sheets = [
+        ("Base de Datos Química UCV", "Química UCV"),
+        ("Base de Datos Biología UCV", "Biología UCV"),
+    ]
+    for sheet_name, curso in sheets:
+        if sheet_name not in wb.sheetnames:
+            continue
+        ws = wb[sheet_name]
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            if not row[0]:
+                break
+            records.append({
+                "id": row[0], "tipo": row[1], "leccion": row[2],
+                "tema": row[3] or "", "nombre_completo": row[4],
+                "url": row[5], "keywords": row[6], "descripcion": row[7],
+                "curso": curso,
+            })
     wb.close()
     return records
 
@@ -339,7 +347,8 @@ def build_db_context(_records, _timestamps_json):
     timestamps = json.loads(_timestamps_json) if _timestamps_json else {}
     lines = []
     for r in _records:
-        lines.append(f"[{r['tipo']}] {r['nombre_completo']}")
+        curso = r.get('curso', '')
+        lines.append(f"[{r['tipo']}] [{curso}] {r['nombre_completo']}")
         lines.append(f"  Keywords: {r['keywords']}")
         lines.append(f"  Desc: {r['descripcion']}")
         lines.append(f"  URL: {r['url']}")
@@ -357,18 +366,23 @@ def build_db_context(_records, _timestamps_json):
     return "\n".join(lines)
 
 
-SYSTEM_PROMPT = """Eres el asistente académico del curso de QUÍMICA – UCV en idappi.com.
-Ayudás a los alumnos a encontrar el contenido exacto que necesitan en el curso.
+SYSTEM_PROMPT = """Eres el asistente académico de idappi.com, plataforma educativa.
+Ayudás a los alumnos a encontrar el contenido exacto que necesitan en los cursos disponibles.
+
+CURSOS DISPONIBLES:
+- Química UCV (química inorgánica y orgánica)
+- Biología UCV (biología celular y molecular)
 
 REGLAS:
 1. Respondé en español, tono profesional pero cercano.
 2. Cuando el alumno pregunte por un tema:
+   - Indicá a qué curso pertenece (Química o Biología)
    - Nombrá el tema/lección
    - Incluí el link en formato markdown: [Nombre del tema](URL)
    - Explicá brevemente qué va a encontrar (1 línea)
    - Si tenés datos de timestamps, indicá en qué minuto del video se explica ese subtema específico (ej: "A partir del minuto 03:05")
 3. Si hay varios temas relacionados, listá hasta 3, ordenados por relevancia.
-4. Si la pregunta no se relaciona con el curso, indicalo amablemente.
+4. Si la pregunta no se relaciona con los cursos disponibles, indicalo amablemente.
 5. Sé conciso. Tu rol es dirigir al contenido, no explicar el tema.
 6. Si el alumno saluda, respondé breve y preguntá en qué tema necesita ayuda.
 7. No uses emojis excesivos. Máximo 1-2 por respuesta para mantener profesionalismo.
@@ -389,8 +403,8 @@ st.markdown(f"""
 <div class="app-header">
     <div class="app-logo">⚗️</div>
     <div>
-        <div class="app-title">Asistente de Química</div>
-        <div class="app-subtitle">Curso UCV — idappi.com</div>
+        <div class="app-title">Asistente Académico</div>
+        <div class="app-subtitle">Química · Biología — idappi.com</div>
     </div>
     <div class="app-badge">v1.0</div>
 </div>
@@ -418,10 +432,10 @@ if not st.session_state.messages:
         <div class="suggestions">
             <div class="suggestion">Molaridad</div>
             <div class="suggestion">Estructura de Lewis</div>
-            <div class="suggestion">Gases ideales</div>
             <div class="suggestion">pH</div>
-            <div class="suggestion">Reactivo limitante</div>
-            <div class="suggestion">Nomenclatura orgánica</div>
+            <div class="suggestion">Mitosis y Meiosis</div>
+            <div class="suggestion">Fotosíntesis</div>
+            <div class="suggestion">Carbohidratos</div>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -464,18 +478,14 @@ if prompt := st.chat_input("Escribí tu pregunta sobre Química..."):
 
 # Sidebar
 with st.sidebar:
-    st.markdown("### Contenido del curso")
+    st.markdown("### Química UCV")
     for r in records:
-        if r['tipo'] == 'Lección':
+        if r['tipo'] == 'Lección' and r.get('curso') == 'Química UCV':
             st.markdown(f"[{r['leccion']}]({r['url']})")
     st.markdown("---")
-    st.markdown("### Ejemplos de consulta")
-    st.markdown("""
-- ¿Dónde veo lo de molaridad?
-- Quiero practicar leyes de gases
-- ¿Cómo se hace una estructura de Lewis?
-- Necesito repasar configuración electrónica
-- ¿Qué es un reactivo limitante?
-    """)
+    st.markdown("### Biología UCV")
+    for r in records:
+        if r['tipo'] == 'Lección' and r.get('curso') == 'Biología UCV':
+            st.markdown(f"[{r['leccion']}]({r['url']})")
     st.markdown("---")
     st.caption("idappi.com — Plataforma educativa")
