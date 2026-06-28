@@ -1,20 +1,32 @@
 # Contexto del Proyecto — Chatbot idappi
 
 ## Objetivo Global
-Chatbot con IA para la plataforma educativa **idappi.com** (EdTech desde Paraguay) que permite a los alumnos preguntar sobre cualquier tema del curso y recibir el link directo al contenido correspondiente.
+Chatbot con IA para la plataforma educativa **idappi.com** que permite a los alumnos preguntar sobre cualquier tema de sus cursos y recibir:
+- El link directo al contenido en idappi.com
+- El minuto exacto del video donde se explica el subtema
+- Sugerencias de temas relacionados
 
-## Proyecto Piloto
-- **Curso**: QUÍMICA – UCV (93 estudiantes inscritos)
-- **Plataforma LMS**: LearnDash sobre WordPress
-- **Contenido**: 17 lecciones, 70 temas, 9 cuestionarios (87 pasos totales)
+## Plataforma
+- **Sitio web**: idappi.com (WordPress + LearnDash LMS)
+- **Empresa**: Idappi — EdTech desde Paraguay (CEO: Victor Benitez)
+- **Videos**: Alojados en Vimeo con subtítulos automáticos (IA)
+- **Pagos**: Pagopar (pasarela paraguaya)
+
+## Cursos Integrados
+
+### Química UCV
+- **Estudiantes**: 93 inscritos
+- **Contenido**: 17 lecciones, 70 temas, 9 cuestionarios (87 pasos)
+- **Videos**: 66 con timestamps (465 subtemas mapeados)
 - **Público**: Estudiantes de secundaria, preingreso a Medicina, autodidactas
-- **URL del curso**: https://idappi.com/courses/quimica/
+- **URL**: https://idappi.com/courses/quimica/
 
-## Cómo Funciona
-1. El alumno escribe una pregunta en lenguaje natural (ej: "¿dónde veo lo de molaridad?")
-2. Claude AI interpreta la pregunta y busca en la base de datos del curso
-3. Responde con el nombre del tema, link directo a idappi.com y breve descripción
-4. Se registra la interacción en Google Sheets para analytics
+### Biología UCV
+- **Estudiantes**: 92 inscritos
+- **Contenido**: 11 lecciones, 30 temas, 1 cuestionario (42 pasos)
+- **Videos**: 9 con timestamps (52 subtemas), 21 pendientes (Vimeo procesando)
+- **Público**: Estudiantes de secundaria, preingreso a Medicina
+- **URL**: https://idappi.com/courses/fundamentos-de-biologia-general/
 
 ## URLs del Proyecto
 - **App en producción**: https://3aumyb4fsk33dnabmhqnjy.streamlit.app
@@ -25,54 +37,35 @@ Chatbot con IA para la plataforma educativa **idappi.com** (EdTech desde Paragua
 ## Stack Tecnológico
 - **Frontend**: Streamlit (Python) con CSS custom (tema oscuro, paleta idappi)
 - **IA**: Claude API (Anthropic) — modelo claude-sonnet-4-6
-- **Base de datos del curso**: Excel (`quimica_ucv_base_datos.xlsx`) con 96 registros
+- **Base de datos cursos**: Excel (`quimica_ucv_base_datos.xlsx`) — 137 registros (96 Química + 41 Biología)
+- **Timestamps**: JSON (`video_timestamps.json`) — 75 videos con subtemas mapeados
+- **Transcripciones**: Vimeo (subtítulos automáticos AI) descargadas via API
 - **Tracking**: Google Sheets API via cuenta de servicio
-- **Deploy**: Streamlit Community Cloud (conectado a GitHub)
-- **Plataforma destino**: idappi.com (WordPress + LearnDash)
+- **Deploy**: Streamlit Community Cloud (auto-deploy desde GitHub)
 
 ## Estructura de Archivos
 ```
 chatbot idappi/
 ├── app_chatbot.py              # Web app principal (Streamlit)
-├── chatbot_quimica.py          # Versión terminal (CLI)
-├── quimica_ucv_base_datos.xlsx # Base de datos del curso (96 registros)
+├── chatbot_quimica.py          # Versión terminal (CLI, legacy)
+├── quimica_ucv_base_datos.xlsx # Base de datos de cursos (Química + Biología)
+├── video_timestamps.json       # Timestamps de 75 videos (subtemas + minutos)
+├── vimeo_transcripts.json      # Transcripciones Química (66 videos)
+├── bio_transcripts.json        # Transcripciones Biología (10 videos)
 ├── requirements.txt            # Dependencias Python
 ├── google_credentials.json     # Credenciales Google (NO en GitHub)
 ├── .env                        # API keys (NO en GitHub)
 ├── .gitignore                  # Protege archivos sensibles
 └── docs/                       # Documentación del proyecto
-    ├── contexto.md
-    ├── roadmap.md
-    ├── tareas.md
-    └── sesiones.md
 ```
 
-## Base de Datos del Curso
-Cada registro tiene:
-| Campo | Descripción |
-|-------|-------------|
-| ID | Número secuencial |
-| Tipo | Lección / Tema / Cuestionario |
-| Lección | Nombre de la lección padre |
-| Tema/Subtema | Nombre del tema específico |
-| Nombre Completo | Ruta jerárquica (Lección > Tema) |
-| URL | Link directo en idappi.com |
-| Palabras Clave | Keywords para matching de la IA |
-| Descripción para IA | Texto descriptivo del contenido |
+## Flujo de Funcionamiento
+1. Alumno entra al chatbot (link público o embebido en idappi.com)
+2. Escribe una pregunta en lenguaje natural
+3. Claude AI busca en la base de datos (137 registros + 517 subtemas con timestamps)
+4. Responde con: curso, tema, link directo, minuto del video
+5. La interacción se registra en Google Sheets (tracking)
 
-## Tracking de Interacciones
-Cada pregunta de un alumno registra en Google Sheets:
-- Fecha y hora
-- Pregunta del alumno
-- Respuesta del chatbot (primeros 500 chars)
-- Temas detectados
-- URLs devueltas
-- Session ID (para agrupar preguntas de una misma sesión)
-
-## Precisión Estimada
-- **Actual**: ~70-75% (keywords inferidas por nombre de tema, no por contenido real)
-- **Objetivo**: ~95% (requiere entrar a cada tema y documentar contenido real)
-
-## Relación con Otros Proyectos
-- **meticas instagram/**: Proyecto separado de análisis de métricas de Instagram/YouTube/TikTok para @vicbenitezpro
-- Este chatbot es independiente con su propio repositorio GitHub
+## Precisión
+- **Química UCV**: ~98% (contenido verificado + 465 timestamps de video)
+- **Biología UCV**: ~80% (contenido verificado, timestamps parciales — 21 videos pendientes)

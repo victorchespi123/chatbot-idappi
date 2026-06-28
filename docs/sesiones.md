@@ -1,55 +1,50 @@
 # Registro de Sesiones — Chatbot idappi
 
 ## Sesión 1 — 2026-06-27
-**Tema**: Creación completa del chatbot, deploy y tracking.
+**Tema**: Creación del chatbot desde cero, deploy y tracking.
 
-**Contexto**:
-- El proyecto nació como extensión del proyecto de métricas de Instagram.
-- Victor quiere analizar idappi.com, mejorar SEO/GEO y gestionar WordPress.
-- Se identificó el curso de Química UCV como piloto para un chatbot de IA.
+**Acciones**:
+- Acceso a WordPress de idappi.com, inventario de 16 cursos en LearnDash.
+- Extracción completa del curso Química UCV (87 pasos, 70 temas, 9 cuestionarios).
+- Creación de base de datos Excel con 96 registros (URLs, keywords, descripciones).
+- Chatbot CLI con Claude API, probado con 8 preguntas — todas correctas.
+- Web app Streamlit v1 (rechazada: "muy genérica") → v2 con diseño profesional (negro + dorado).
+- Correcciones UI: quitar Deploy, quitar stats, arreglar contraste input.
+- Separación del proyecto en carpeta independiente.
+- Google Cloud: proyecto chatbot-idappi, Sheets API, cuenta de servicio.
+- Tracking a Google Sheets conectado y verificado.
+- GitHub repo creado, GitHub CLI instalado.
+- Deploy en Streamlit Community Cloud — app LIVE.
 
-**Acciones realizadas**:
+## Sesión 2 — 2026-06-28
+**Tema**: Verificación de contenido, timestamps de video e integración de Biología.
 
-### Fase 1: Extracción de datos
-- Acceso al panel de WordPress de idappi.com via Chrome (extensión Claude in Chrome).
-- Navegación completa por LearnDash LMS: 16 cursos en total.
-- Extracción completa de la estructura del curso QUÍMICA – UCV:
-  - 93 estudiantes, 17 lecciones, 70 temas, 9 cuestionarios (87 pasos).
-  - URLs reales de cada lección y tema (base: `idappi.com/courses/quimica/`).
-- Creación de `quimica_ucv_base_datos.xlsx` con 96 registros.
+**Acciones**:
+- Verificación real del contenido de los 70 temas de Química via API REST de WordPress.
+- Keywords enriquecidas con contenido verificado (de ~75% a ~90% precisión).
+- Extracción de Vimeo IDs de cada tema (70 temas → 66 con video).
+- Descarga de 66 transcripciones de Vimeo (878K chars) usando JWT del browser.
+- Procesamiento de transcripciones con Claude AI → 465 subtemas con timestamps exactos.
+- Integración de timestamps al chatbot (ahora indica "minuto 03:05").
+- Precisión Química subió a ~98%.
+- Prueba con 8 preguntas variadas — todas correctas con timestamps.
 
-### Fase 2: Desarrollo del chatbot
-- Chatbot CLI (`chatbot_quimica.py`) con Claude API — probado con 4 preguntas, todas correctas.
-- Web app (`app_chatbot.py`) con Streamlit.
-- Primera versión UI: rechazada por Victor ("muy genérica, hecha con IA").
-- Segunda versión: diseño profesional con paleta idappi (negro + dorado), tipografía Inter.
-- Correcciones: quitar Deploy button, quitar stats, arreglar contraste del input box (fondo oscuro + texto blanco).
+**Integración Biología UCV**:
+- Extracción del curso (11 lecciones, 30 temas, 1 cuestionario).
+- Base de datos creada (41 registros).
+- Chatbot actualizado: "Asistente Académico" con Química + Biología.
+- Sidebar con ambos cursos, sugerencias mixtas.
+- Activación de subtítulos AI en Vimeo para los 30 videos de Biología.
+- 10 transcripciones descargadas, 9 procesadas → 52 subtemas con timestamps.
+- 20 videos pendientes (Vimeo procesando subtítulos).
+- Actualización de docs: separación definitiva del proyecto de métricas.
 
-### Fase 3: Infraestructura
-- Separación del proyecto en carpeta independiente (`chatbot idappi/`).
-- API key de Anthropic agregada al `.env`.
-- Google Cloud: proyecto "chatbot-idappi", Sheets API habilitada, cuenta de servicio creada.
-- Google Sheet "Chatbot idappi - Tracking" creado y conectado.
-- Headers de tracking configurados: Fecha, Pregunta, Respuesta, Temas, URLs, Session ID.
-
-### Fase 4: Deploy
-- GitHub CLI instalado (v2.95.0) y autenticado como victorchespi123.
-- Repo `victorchespi123/chatbot-idappi` creado (privado → público para Streamlit Cloud).
-- Código pusheado a GitHub.
-- Streamlit Community Cloud: cuenta creada, conectada a GitHub, secrets configurados (ANTHROPIC_API_KEY + credenciales Google).
-- App deployada y LIVE en: `https://3aumyb4fsk33dnabmhqnjy.streamlit.app`
-- Tracking verificado: 4 interacciones registradas en Google Sheets.
-
-**Decisiones tomadas**:
-- Chatbot desplegado en Streamlit Community Cloud (no Netlify — no soporta Python).
-- Tracking de interacciones via Google Sheets.
-- Repo GitHub público (necesario para Streamlit Cloud gratis; credenciales protegidas por .gitignore).
-- Diseño debe ser elegante y profesional, no genérico (feedback guardado en memoria).
-- Python 3.12 para deploy (3.9 no disponible en Streamlit Cloud).
-
-**Precisión estimada**: ~70-75% con datos actuales. Para subir a ~95% se necesita entrar a cada tema y documentar contenido real.
+**Decisiones**:
+- El chatbot es un proyecto independiente del de métricas de Instagram.
+- Objetivo: chatbot general para todos los cursos de idappi.com.
+- Próximo curso a integrar: Física UCV o Anatomía Humana UCV.
 
 **Próximos pasos**:
-- Compartir link con alumnos para prueba piloto.
-- Monitorear interacciones 1-2 semanas.
-- Analizar datos y mejorar precisión.
+- Completar timestamps de Biología (cuando Vimeo procese los 20 videos restantes).
+- Prueba piloto con alumnos.
+- Agregar más cursos.
