@@ -1,4 +1,5 @@
 import os
+import json
 import uuid
 from datetime import datetime
 import streamlit as st
@@ -12,6 +13,7 @@ from google.oauth2.service_account import Credentials
 load_dotenv()
 
 EXCEL_PATH = Path(__file__).parent / "quimica_ucv_base_datos.xlsx"
+TIMESTAMPS_PATH = Path(__file__).parent / "video_timestamps.json"
 CREDENTIALS_PATH = Path(__file__).parent / "google_credentials.json"
 SHEET_ID = "1FMy-gOlDEBSErZrk4AAlPiEQWgFzl8bbYcoipSaA1f4"
 
@@ -326,7 +328,15 @@ def load_database():
 
 
 @st.cache_data
-def build_db_context(_records):
+def load_timestamps():
+    if TIMESTAMPS_PATH.exists():
+        return json.load(open(TIMESTAMPS_PATH, encoding="utf-8"))
+    return {}
+
+
+@st.cache_data
+def build_db_context(_records, _timestamps_json):
+    timestamps = json.loads(_timestamps_json) if _timestamps_json else {}
     lines = []
     for r in _records:
         lines.append(f"[{r['tipo']}] {r['nombre_completo']}")
@@ -334,6 +344,16 @@ def build_db_context(_records):
         lines.append(f"  Desc: {r['descripcion']}")
         lines.append(f"  URL: {r['url']}")
         lines.append("")
+
+    if timestamps:
+        lines.append("\n=== TIMESTAMPS DE VIDEOS ===")
+        lines.append("Cada video tiene subtemas con el minuto exacto donde se explican:\n")
+        for vid, data in timestamps.items():
+            lines.append(f"Video: {data['title']}")
+            for t in data['timestamps']:
+                lines.append(f"  {t['tiempo']} → {t['subtema']}")
+            lines.append("")
+
     return "\n".join(lines)
 
 
@@ -346,6 +366,7 @@ REGLAS:
    - Nombrá el tema/lección
    - Incluí el link en formato markdown: [Nombre del tema](URL)
    - Explicá brevemente qué va a encontrar (1 línea)
+   - Si tenés datos de timestamps, indicá en qué minuto del video se explica ese subtema específico (ej: "A partir del minuto 03:05")
 3. Si hay varios temas relacionados, listá hasta 3, ordenados por relevancia.
 4. Si la pregunta no se relaciona con el curso, indicalo amablemente.
 5. Sé conciso. Tu rol es dirigir al contenido, no explicar el tema.
@@ -356,7 +377,8 @@ REGLAS:
 
 
 records = load_database()
-db_context = build_db_context(tuple(records))
+timestamps_data = load_timestamps()
+db_context = build_db_context(tuple(records), json.dumps(timestamps_data))
 
 lecciones = sum(1 for r in records if r['tipo'] == 'Lección')
 temas_count = sum(1 for r in records if r['tipo'] == 'Tema')

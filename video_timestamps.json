@@ -1,0 +1,2192 @@
+{
+  "1131145732": {
+    "title": "Leyes de los Gases",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a las leyes de los gases"
+      },
+      {
+        "tiempo": "00:16",
+        "subtema": "Variables de un sistema gaseoso (volumen, presión, temperatura)"
+      },
+      {
+        "tiempo": "01:07",
+        "subtema": "Ecuación ideal de los gases"
+      },
+      {
+        "tiempo": "02:18",
+        "subtema": "Presentación de las tres leyes de los gases (Boyle-Mariotte, Charles, Gay-Lussac)"
+      },
+      {
+        "tiempo": "03:05",
+        "subtema": "Ley de Boyle-Mariotte (temperatura constante)"
+      },
+      {
+        "tiempo": "04:12",
+        "subtema": "Ley de Charles (presión constante)"
+      },
+      {
+        "tiempo": "04:55",
+        "subtema": "Ley de Gay-Lussac (volumen constante)"
+      },
+      {
+        "tiempo": "05:41",
+        "subtema": "Ejemplo práctico resuelto con la Ley de Charles"
+      },
+      {
+        "tiempo": "06:48",
+        "subtema": "Unidades del sistema internacional para gases (atm, litros, kelvin) y conversión Celsius a Kelvin"
+      }
+    ]
+  },
+  "1131148730": {
+    "title": "Afinidad Electrónica y Electronegatividad",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Definición de Afinidad Electrónica"
+      },
+      {
+        "tiempo": "00:32",
+        "subtema": "Ejemplo de Afinidad Electrónica con el Flúor"
+      },
+      {
+        "tiempo": "01:00",
+        "subtema": "Afinidad Electrónica: exotérmica vs endotérmica"
+      },
+      {
+        "tiempo": "01:13",
+        "subtema": "Excepciones en la Afinidad Electrónica (Grupos 1A, 2A, 4A y 5A)"
+      },
+      {
+        "tiempo": "02:23",
+        "subtema": "Tendencia de la Afinidad Electrónica en la Tabla Periódica"
+      },
+      {
+        "tiempo": "02:55",
+        "subtema": "Definición de Electronegatividad"
+      },
+      {
+        "tiempo": "03:21",
+        "subtema": "Tendencia de la Electronegatividad en la Tabla Periódica"
+      },
+      {
+        "tiempo": "03:39",
+        "subtema": "Ejercicio: Ordenar elementos por Electronegatividad creciente"
+      },
+      {
+        "tiempo": "05:59",
+        "subtema": "Relación entre Electronegatividad y Tipo de Enlace Químico"
+      },
+      {
+        "tiempo": "06:30",
+        "subtema": "Escala de Pauling y predicción del tipo de enlace"
+      },
+      {
+        "tiempo": "06:52",
+        "subtema": "Criterios de diferencia de electronegatividad: enlace iónico, covalente polar y covalente apolar"
+      }
+    ]
+  },
+  "1131162188": {
+    "title": "Introducción a los Números Cuánticos",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a los números cuánticos"
+      },
+      {
+        "tiempo": "00:29",
+        "subtema": "Número cuántico principal"
+      },
+      {
+        "tiempo": "00:44",
+        "subtema": "Número cuántico secundario (acimutal)"
+      },
+      {
+        "tiempo": "01:03",
+        "subtema": "Número cuántico magnético"
+      },
+      {
+        "tiempo": "01:23",
+        "subtema": "Número cuántico de giro o spin"
+      },
+      {
+        "tiempo": "01:39",
+        "subtema": "Valores del número cuántico principal y subniveles"
+      },
+      {
+        "tiempo": "02:11",
+        "subtema": "Cantidad de orbitales por subnivel"
+      },
+      {
+        "tiempo": "02:38",
+        "subtema": "Valores del número cuántico magnético por subnivel"
+      },
+      {
+        "tiempo": "03:44",
+        "subtema": "Valores del número cuántico de spin"
+      },
+      {
+        "tiempo": "04:09",
+        "subtema": "Ejemplo práctico: números cuánticos del cloro"
+      }
+    ]
+  },
+  "1131162216": {
+    "title": "Peso Molecular",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y definición de peso molecular"
+      },
+      {
+        "tiempo": "00:26",
+        "subtema": "Ejemplo práctico: ácido sulfúrico y sus átomos"
+      },
+      {
+        "tiempo": "01:01",
+        "subtema": "Consulta de pesos en la tabla periódica"
+      },
+      {
+        "tiempo": "01:17",
+        "subtema": "Multiplicación y suma para obtener el peso molecular final"
+      }
+    ]
+  },
+  "1131162228": {
+    "title": "Reactivo Limitante y en Exceso",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y planteamiento del problema"
+      },
+      {
+        "tiempo": "00:50",
+        "subtema": "Balanceo de la reacción y cálculo de pesos moleculares"
+      },
+      {
+        "tiempo": "01:43",
+        "subtema": "Método para identificar el reactivo limitante (x1 y x2)"
+      },
+      {
+        "tiempo": "03:00",
+        "subtema": "Identificación del reactivo limitante y en exceso"
+      },
+      {
+        "tiempo": "03:58",
+        "subtema": "Cálculo de la cantidad del reactivo en exceso que sobró"
+      }
+    ]
+  },
+  "1131162240": {
+    "title": "Constante de Ionización pKa y pKb",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción al equilibrio iónico y definición de pKa y pKb"
+      },
+      {
+        "tiempo": "00:19",
+        "subtema": "Definición de constantes de ionización Ka y Kb"
+      },
+      {
+        "tiempo": "00:36",
+        "subtema": "Fórmulas de Ka y Kb (con concentración molar y grado de ionización alfa)"
+      },
+      {
+        "tiempo": "01:13",
+        "subtema": "Relación pKa + pKb y producto Ka × Kb a 25°C"
+      },
+      {
+        "tiempo": "02:05",
+        "subtema": "Relación entre pH, pOH y cálculo de concentraciones de H⁺ y OH⁻"
+      },
+      {
+        "tiempo": "02:29",
+        "subtema": "Ejercicio 1: Cálculo de Ka con porcentaje de ionización (ácido acético 1 M, 0.5% ionizado)"
+      },
+      {
+        "tiempo": "04:19",
+        "subtema": "Ejercicio 2: Cálculo de Ka a partir del pH (ácido butanoico 0.25 M, pH = 3.21)"
+      }
+    ]
+  },
+  "1131162247": {
+    "title": "Estequiometría con Fórmula Mínima",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción al ejercicio de fórmula mínima y molecular"
+      },
+      {
+        "tiempo": "00:19",
+        "subtema": "Presentación del problema: combustión de una muestra de alcohol"
+      },
+      {
+        "tiempo": "00:44",
+        "subtema": "Identificación de los elementos que componen el alcohol (C, H, O)"
+      },
+      {
+        "tiempo": "00:55",
+        "subtema": "Explicación de la reacción de combustión y sus productos (CO₂ y H₂O)"
+      },
+      {
+        "tiempo": "02:24",
+        "subtema": "Aplicación de la Ley de Conservación de la Masa"
+      },
+      {
+        "tiempo": "03:05",
+        "subtema": "Cálculo de la masa de carbono a partir del CO₂"
+      },
+      {
+        "tiempo": "04:23",
+        "subtema": "Cálculo de la masa de hidrógeno a partir del H₂O"
+      },
+      {
+        "tiempo": "05:41",
+        "subtema": "Cálculo de la masa de oxígeno por diferencia (resta a la muestra total)"
+      },
+      {
+        "tiempo": "07:09",
+        "subtema": "Primer paso para la fórmula mínima: dividir cada masa por su masa atómica"
+      }
+    ]
+  },
+  "1131162257": {
+    "title": "Estequiometría con Rendimiento Porcentual",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción al rendimiento porcentual y conceptos clave (rendimiento teórico vs rendimiento real)"
+      },
+      {
+        "tiempo": "01:31",
+        "subtema": "Presentación del ejercicio y datos del problema (moles de Br₂ y Cl₂, rendimiento del 66%)"
+      },
+      {
+        "tiempo": "01:55",
+        "subtema": "Identificación del reactivo limitante mediante cálculo estequiométrico"
+      },
+      {
+        "tiempo": "04:03",
+        "subtema": "Cálculo de la masa molar del cloruro de bromo y relación mol-gramo"
+      },
+      {
+        "tiempo": "05:05",
+        "subtema": "Determinación del reactivo limitante comparando resultados (cloro vs bromo)"
+      },
+      {
+        "tiempo": "06:41",
+        "subtema": "Cálculo del rendimiento real aplicando el porcentaje de rendimiento al rendimiento teórico"
+      }
+    ]
+  },
+  "1131162264": {
+    "title": "pH con Soluciones",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción: combinación de pH y soluciones"
+      },
+      {
+        "tiempo": "00:15",
+        "subtema": "Ejercicio 1: Dilución de hidróxido de sodio (NaOH) y cálculo de concentración final"
+      },
+      {
+        "tiempo": "01:03",
+        "subtema": "Aplicación de la fórmula de dilución de soluciones (C1V1 = C2V2)"
+      },
+      {
+        "tiempo": "02:52",
+        "subtema": "Cálculo del pOH a partir de la concentración de OH⁻"
+      },
+      {
+        "tiempo": "03:37",
+        "subtema": "Relación pH + pOH = 14 y obtención del pH final (Ejercicio 1)"
+      },
+      {
+        "tiempo": "05:24",
+        "subtema": "Ejercicio 2: Cálculo del pH disolviendo hidróxido de calcio Ca(OH)₂ en solución"
+      },
+      {
+        "tiempo": "05:59",
+        "subtema": "Cálculo de la molaridad a partir de masa y volumen"
+      },
+      {
+        "tiempo": "07:15",
+        "subtema": "Ajuste de concentración de OH⁻ según los moles liberados por Ca(OH)₂"
+      },
+      {
+        "tiempo": "08:03",
+        "subtema": "Cálculo del pOH y obtención del pH final (Ejercicio 2)"
+      },
+      {
+        "tiempo": "08:57",
+        "subtema": "Aclaración: el pOH no indica directamente si una solución es ácida o básica, siempre calcular el pH"
+      }
+    ]
+  },
+  "1131162273": {
+    "title": "Estequiometría con Soluciones",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y presentación del ejercicio de estequiometría con soluciones"
+      },
+      {
+        "tiempo": "00:45",
+        "subtema": "Identificación de datos del problema y fórmula de molaridad"
+      },
+      {
+        "tiempo": "01:29",
+        "subtema": "Conversión de gramos a moles del ácido acético"
+      },
+      {
+        "tiempo": "02:04",
+        "subtema": "Cálculo de la masa molar del ácido acético"
+      },
+      {
+        "tiempo": "02:53",
+        "subtema": "Verificación del balanceo de la ecuación química"
+      },
+      {
+        "tiempo": "03:23",
+        "subtema": "Aplicación de relación estequiométrica para obtener moles de KOH"
+      },
+      {
+        "tiempo": "04:05",
+        "subtema": "Despeje y cálculo del volumen de la solución de KOH"
+      }
+    ]
+  },
+  "1131162283": {
+    "title": "Isótopos, Isóbaros, Isótonos, Isoelectrónicos",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la estructura atómica y partículas fundamentales (protón, electrón, neutrón)"
+      },
+      {
+        "tiempo": "02:06",
+        "subtema": "Clasificación de átomos: definición de isótopos, isótonos e isóbaros"
+      },
+      {
+        "tiempo": "03:18",
+        "subtema": "Simbología y notación: números atómico, másico y de neutrones"
+      },
+      {
+        "tiempo": "04:27",
+        "subtema": "Ejemplo de isótopos: protio, deuterio y tritio"
+      },
+      {
+        "tiempo": "05:59",
+        "subtema": "Ejemplo de isótonos: calcio-40 y cloro-37"
+      },
+      {
+        "tiempo": "07:20",
+        "subtema": "Ejemplo de isóbaros: argón, potasio y calcio (masa 40)"
+      },
+      {
+        "tiempo": "08:39",
+        "subtema": "Ejercicio de aplicación con átomos A, B y C"
+      }
+    ]
+  },
+  "1131162299": {
+    "title": "Introducción a la Estequiometría",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y definición de estequiometría"
+      },
+      {
+        "tiempo": "00:54",
+        "subtema": "Conocimientos previos necesarios (reacciones, nomenclatura, mol y conversiones)"
+      },
+      {
+        "tiempo": "01:38",
+        "subtema": "Estructura de una reacción química: reactivos y productos"
+      },
+      {
+        "tiempo": "02:31",
+        "subtema": "Ejemplo de reacción de síntesis del agua y elementos diatómicos"
+      },
+      {
+        "tiempo": "04:06",
+        "subtema": "Pasos para resolver un ejercicio de estequiometría"
+      },
+      {
+        "tiempo": "04:13",
+        "subtema": "Balanceo de ecuaciones químicas"
+      },
+      {
+        "tiempo": "06:06",
+        "subtema": "Interpretación de la ecuación balanceada y relación entre reactivos y productos"
+      },
+      {
+        "tiempo": "06:53",
+        "subtema": "Tipos de estequiometría: simple, reactivo limitante y en exceso, y rendimiento de reacción"
+      }
+    ]
+  },
+  "1131162312": {
+    "title": "Materia y Energía",
+    "timestamps": [
+      {
+        "tiempo": "00:18",
+        "subtema": "Definición y características de la materia"
+      },
+      {
+        "tiempo": "00:50",
+        "subtema": "Ley de la conservación de la masa"
+      },
+      {
+        "tiempo": "01:13",
+        "subtema": "Ley de la composición definida de la materia"
+      },
+      {
+        "tiempo": "01:51",
+        "subtema": "Estados de la materia"
+      },
+      {
+        "tiempo": "02:26",
+        "subtema": "Propiedades de la materia"
+      },
+      {
+        "tiempo": "03:35",
+        "subtema": "Formas de presentación de la materia (mezclas y sustancias puras)"
+      },
+      {
+        "tiempo": "05:03",
+        "subtema": "Energía: definición, ley de conservación y tipos"
+      }
+    ]
+  },
+  "1131162325": {
+    "title": "pH",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción al pH y su utilidad"
+      },
+      {
+        "tiempo": "00:31",
+        "subtema": "Fórmulas de pH y pOH"
+      },
+      {
+        "tiempo": "01:33",
+        "subtema": "Concepto de molaridad"
+      },
+      {
+        "tiempo": "01:46",
+        "subtema": "Fórmulas de conversión entre concentraciones y entre pH/pOH"
+      },
+      {
+        "tiempo": "05:36",
+        "subtema": "Escala de pH: soluciones ácidas, neutras y básicas"
+      },
+      {
+        "tiempo": "07:14",
+        "subtema": "Ejemplo práctico: cálculo de pH con ácido clorhídrico (ácido fuerte)"
+      },
+      {
+        "tiempo": "09:34",
+        "subtema": "Ejemplo práctico: cálculo de pH con hidróxido de calcio (base) usando conversión pOH a pH"
+      }
+    ]
+  },
+  "1131162340": {
+    "title": "Soluciones Buffer",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a soluciones buffer y ecuación de Henderson-Hasselbalch"
+      },
+      {
+        "tiempo": "01:02",
+        "subtema": "Presentación del ejercicio: cálculo de pH con ácido benzoico y benzoato de sodio"
+      },
+      {
+        "tiempo": "02:02",
+        "subtema": "Conversión de molaridad a moles (considerando 1 litro de solución)"
+      },
+      {
+        "tiempo": "04:11",
+        "subtema": "Efecto de agregar un ácido o una base sobre los componentes del buffer"
+      },
+      {
+        "tiempo": "05:19",
+        "subtema": "Cálculo del pH inicial sin agregar ácido clorhídrico (usando PKa)"
+      },
+      {
+        "tiempo": "07:46",
+        "subtema": "Cálculo del pH final tras agregar ácido clorhídrico y comparación de resultados"
+      }
+    ]
+  },
+  "1131162353": {
+    "title": "Introducción a Soluciones",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y presentación del tema"
+      },
+      {
+        "tiempo": "00:22",
+        "subtema": "Definición de solución (mezcla homogénea)"
+      },
+      {
+        "tiempo": "00:38",
+        "subtema": "Partes de una solución: solvente y soluto"
+      },
+      {
+        "tiempo": "02:04",
+        "subtema": "Fórmula de porcentaje en masa y volumen"
+      },
+      {
+        "tiempo": "02:51",
+        "subtema": "Ejemplo 1: cálculo de porcentaje en masa del soluto"
+      },
+      {
+        "tiempo": "04:12",
+        "subtema": "Ejemplo 2: cálculo de porcentaje en volumen del solvente"
+      },
+      {
+        "tiempo": "05:21",
+        "subtema": "Cierre y resumen de la clase"
+      }
+    ]
+  },
+  "1131162361": {
+    "title": "Teoría Ácido Base",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la Teoría Ácido-Base"
+      },
+      {
+        "tiempo": "00:15",
+        "subtema": "Teoría de Brønsted-Lowry: definición de ácido y base"
+      },
+      {
+        "tiempo": "00:40",
+        "subtema": "Reacción HCl con agua y concepto de anfoterismo del agua"
+      },
+      {
+        "tiempo": "01:49",
+        "subtema": "Ácido y base conjugada en la teoría de Brønsted-Lowry"
+      },
+      {
+        "tiempo": "02:10",
+        "subtema": "Reacción del amoniaco con agua (base débil)"
+      },
+      {
+        "tiempo": "02:54",
+        "subtema": "Teoría de Arrhenius: definición de ácido y base"
+      },
+      {
+        "tiempo": "03:17",
+        "subtema": "Electrolitos fuertes y disociación en medio acuoso"
+      },
+      {
+        "tiempo": "04:05",
+        "subtema": "Diferencias entre Teoría de Arrhenius y Brønsted-Lowry"
+      },
+      {
+        "tiempo": "04:31",
+        "subtema": "Teoría de Lewis: definición de ácido y base"
+      },
+      {
+        "tiempo": "05:17",
+        "subtema": "Ejemplo de reacción de Lewis: amoniaco y tricloruro de boro"
+      },
+      {
+        "tiempo": "06:11",
+        "subtema": "Enlace coordinado o dativo"
+      },
+      {
+        "tiempo": "06:57",
+        "subtema": "Resumen comparativo de las tres teorías ácido-base"
+      }
+    ]
+  },
+  "1131162369": {
+    "title": "Tipos de Enlace",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a los enlaces químicos"
+      },
+      {
+        "tiempo": "00:22",
+        "subtema": "Tipos de enlaces: iónico y covalente"
+      },
+      {
+        "tiempo": "00:31",
+        "subtema": "Enlaces iónicos: características y condiciones"
+      },
+      {
+        "tiempo": "01:08",
+        "subtema": "Enlaces covalentes: polares y apolares"
+      },
+      {
+        "tiempo": "02:25",
+        "subtema": "Repaso y resumen de los tres tipos de enlaces"
+      },
+      {
+        "tiempo": "03:08",
+        "subtema": "Definición de electronegatividad"
+      },
+      {
+        "tiempo": "03:16",
+        "subtema": "Ejemplos prácticos de tipos de enlace"
+      }
+    ]
+  },
+  "1131162382": {
+    "title": "Radio Atómico, Radio Iónico y Energía de Ionización",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción al capítulo de Periodicidad"
+      },
+      {
+        "tiempo": "00:49",
+        "subtema": "Radio Atómico: definición y concepto"
+      },
+      {
+        "tiempo": "01:28",
+        "subtema": "Radio Atómico: tendencia en la tabla periódica"
+      },
+      {
+        "tiempo": "03:25",
+        "subtema": "Radio Atómico: ejercicio de ordenamiento de elementos"
+      },
+      {
+        "tiempo": "04:49",
+        "subtema": "Radio Iónico: definición y tendencia"
+      },
+      {
+        "tiempo": "05:24",
+        "subtema": "Radio Iónico: comparación entre catión y átomo neutro (ejemplo con sodio)"
+      }
+    ]
+  },
+  "1131162397": {
+    "title": "Concentración Porcentual",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la concentración de soluciones y tipos de concentración"
+      },
+      {
+        "tiempo": "01:07",
+        "subtema": "Definición de concentración porcentual (en masa y en volumen)"
+      },
+      {
+        "tiempo": "01:41",
+        "subtema": "Problema 1: Calcular concentración porcentual de NaCl en agua"
+      },
+      {
+        "tiempo": "03:36",
+        "subtema": "Problema 2: Calcular gramos de soluto con porcentaje y masa de solución dados (NaCl al 15%)"
+      },
+      {
+        "tiempo": "05:12",
+        "subtema": "Problema 3: Calcular gramos de soluto (bromuro de potasio al 5%)"
+      },
+      {
+        "tiempo": "06:53",
+        "subtema": "Problema 4: Calcular masa de solución a partir del soluto y porcentaje dados"
+      },
+      {
+        "tiempo": "09:00",
+        "subtema": "Problema 5: Concentración porcentual en volumen (ml) - cloruro de bario al 12%"
+      }
+    ]
+  },
+  "1145120541": {
+    "title": "Composición Centesimal o Porcentual",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la composición centesimal o porcentual"
+      },
+      {
+        "tiempo": "00:26",
+        "subtema": "Ejemplo con la glucosa y su masa molecular"
+      },
+      {
+        "tiempo": "01:00",
+        "subtema": "Fórmula y método de cálculo del porcentaje de cada elemento"
+      },
+      {
+        "tiempo": "01:39",
+        "subtema": "Cálculo del peso de cada elemento en la glucosa"
+      },
+      {
+        "tiempo": "02:35",
+        "subtema": "Cálculo del porcentaje de carbono"
+      },
+      {
+        "tiempo": "03:18",
+        "subtema": "Cálculo del porcentaje de hidrógeno"
+      },
+      {
+        "tiempo": "03:45",
+        "subtema": "Cálculo del porcentaje de oxígeno"
+      },
+      {
+        "tiempo": "04:13",
+        "subtema": "Verificación de resultados mediante sumatoria de porcentajes"
+      }
+    ]
+  },
+  "1145120873": {
+    "title": "Fórmula Mínima",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción: definición de fórmula mínima, empírica o más sencilla"
+      },
+      {
+        "tiempo": "00:38",
+        "subtema": "Presentación del ejercicio: compuesto con azufre y oxígeno en porcentaje en masa"
+      },
+      {
+        "tiempo": "01:54",
+        "subtema": "Paso 1: verificación de que los porcentajes suman 100%"
+      },
+      {
+        "tiempo": "02:18",
+        "subtema": "Paso 2: conversión de porcentaje en masa a gramos y división por masa atómica"
+      },
+      {
+        "tiempo": "03:16",
+        "subtema": "Uso de la calculadora para guardar resultados (función SHIFT RCL)"
+      },
+      {
+        "tiempo": "04:11",
+        "subtema": "Paso 3: identificar el menor número y dividir para obtener proporciones molares"
+      },
+      {
+        "tiempo": "05:08",
+        "subtema": "Obtención de la fórmula mínima resultante (SO₂)"
+      },
+      {
+        "tiempo": "05:23",
+        "subtema": "Casos especiales de redondeo: qué hacer cuando aparece .5, .3 o .7"
+      }
+    ]
+  },
+  "1145122458": {
+    "title": "Fórmula Molecular",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción al cálculo de la fórmula molecular y presentación del ejercicio"
+      },
+      {
+        "tiempo": "01:00",
+        "subtema": "Cálculo de la fórmula mínima: división de porcentajes por masas atómicas"
+      },
+      {
+        "tiempo": "02:00",
+        "subtema": "Determinación del menor número y obtención de subíndices de la fórmula mínima"
+      },
+      {
+        "tiempo": "03:24",
+        "subtema": "Cálculo del múltiplo (m) para obtener la fórmula molecular"
+      },
+      {
+        "tiempo": "04:19",
+        "subtema": "Interpretación del múltiplo y relación entre fórmula mínima y fórmula molecular"
+      }
+    ]
+  },
+  "1145122740": {
+    "title": "Ley de Avogadro",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la Ley de Avogadro"
+      },
+      {
+        "tiempo": "00:23",
+        "subtema": "Planteamiento del ejercicio práctico"
+      },
+      {
+        "tiempo": "00:41",
+        "subtema": "Volumen molar estándar y condiciones TP"
+      },
+      {
+        "tiempo": "01:25",
+        "subtema": "Resolución del ejercicio: cálculo de moléculas"
+      },
+      {
+        "tiempo": "02:42",
+        "subtema": "Relaciones posibles del volumen molar estándar (gramos, moles, moléculas)"
+      }
+    ]
+  },
+  "1145123048": {
+    "title": "Abundancia Isotópica",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la abundancia isotópica y definición de isótopos"
+      },
+      {
+        "tiempo": "00:31",
+        "subtema": "Fórmula del peso atómico promedio"
+      },
+      {
+        "tiempo": "01:05",
+        "subtema": "Presentación del ejercicio con el Boro y sus dos isótopos"
+      },
+      {
+        "tiempo": "02:02",
+        "subtema": "Planteamiento de la ecuación para calcular las abundancias"
+      },
+      {
+        "tiempo": "02:56",
+        "subtema": "Resolución del sistema de dos incógnitas mediante sumatoria de abundancias"
+      },
+      {
+        "tiempo": "04:07",
+        "subtema": "Sustitución y simplificación algebraica (propiedad distributiva)"
+      },
+      {
+        "tiempo": "06:03",
+        "subtema": "Despeje y cálculo numérico de la abundancia dos"
+      },
+      {
+        "tiempo": "08:22",
+        "subtema": "Cálculo de la abundancia uno a partir del resultado obtenido"
+      }
+    ]
+  },
+  "1145123306": {
+    "title": "Ecuación de los Gases Ideales",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la ecuación de los gases ideales y sus fórmulas"
+      },
+      {
+        "tiempo": "00:20",
+        "subtema": "Explicación de variables: presión, volumen, moles, constante universal R y temperatura"
+      },
+      {
+        "tiempo": "01:04",
+        "subtema": "Variables adicionales: masa en gramos y peso molecular"
+      },
+      {
+        "tiempo": "01:18",
+        "subtema": "Planteamiento del ejercicio práctico"
+      },
+      {
+        "tiempo": "01:32",
+        "subtema": "Conversión de grados Celsius a Kelvin"
+      },
+      {
+        "tiempo": "02:10",
+        "subtema": "Selección de la fórmula adecuada y resolución del ejercicio"
+      },
+      {
+        "tiempo": "04:05",
+        "subtema": "Resultado final: cálculo de la presión en atmósferas"
+      }
+    ]
+  },
+  "1145123592": {
+    "title": "Tipos de Reacciones",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a los Tipos de Reacciones"
+      },
+      {
+        "tiempo": "00:19",
+        "subtema": "Reacciones de Metátesis (Doble Desplazamiento)"
+      },
+      {
+        "tiempo": "00:50",
+        "subtema": "Reacciones de Precipitación"
+      },
+      {
+        "tiempo": "01:21",
+        "subtema": "Concepto de Solubilidad"
+      },
+      {
+        "tiempo": "02:43",
+        "subtema": "Reglas de Solubilidad: Compuestos Solubles"
+      },
+      {
+        "tiempo": "04:46",
+        "subtema": "Reglas de Solubilidad: Compuestos Insolubles"
+      },
+      {
+        "tiempo": "06:32",
+        "subtema": "Análisis de Ejemplo: Sulfato de Bario como Precipitado"
+      },
+      {
+        "tiempo": "07:43",
+        "subtema": "Ejercicios de Aplicación de Reglas de Solubilidad"
+      }
+    ]
+  },
+  "1148789690": {
+    "title": "Normalidad",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la Normalidad: definición y fórmula básica"
+      },
+      {
+        "tiempo": "00:26",
+        "subtema": "Relación entre Normalidad y Molaridad (N = M × n equivalentes)"
+      },
+      {
+        "tiempo": "00:37",
+        "subtema": "Número de equivalentes en ácidos"
+      },
+      {
+        "tiempo": "01:11",
+        "subtema": "Número de equivalentes en hidróxidos"
+      },
+      {
+        "tiempo": "01:45",
+        "subtema": "Número de equivalentes en sales (binarias y ternarias)"
+      },
+      {
+        "tiempo": "03:06",
+        "subtema": "Fórmulas extendidas de Normalidad (con masa y con porcentaje-densidad)"
+      },
+      {
+        "tiempo": "04:28",
+        "subtema": "Ejercicio resuelto: cálculo de Normalidad del ácido sulfúrico"
+      }
+    ]
+  },
+  "1148789852": {
+    "title": "Molalidad",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y definición de molalidad"
+      },
+      {
+        "tiempo": "00:36",
+        "subtema": "Fórmulas para calcular la molalidad"
+      },
+      {
+        "tiempo": "01:39",
+        "subtema": "Criterio para identificar solvente y soluto"
+      },
+      {
+        "tiempo": "01:51",
+        "subtema": "Ejercicio 1: Calcular la molalidad de metanol en agua"
+      },
+      {
+        "tiempo": "04:58",
+        "subtema": "Ejercicio 2: Calcular los gramos de solvente (agua) con sacarosa"
+      }
+    ]
+  },
+  "1148790023": {
+    "title": "Dilución de Soluciones",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la dilución de soluciones"
+      },
+      {
+        "tiempo": "00:22",
+        "subtema": "Fórmula de dilución: C1V1 = C2V2"
+      },
+      {
+        "tiempo": "00:59",
+        "subtema": "Conceptos clave: solución inicial vs solución final"
+      },
+      {
+        "tiempo": "01:39",
+        "subtema": "Ejercicio 1: Dilución de nitrato de potasio"
+      },
+      {
+        "tiempo": "04:26",
+        "subtema": "Resolución matemática del Ejercicio 1"
+      },
+      {
+        "tiempo": "07:35",
+        "subtema": "Ejercicio 2: Preparación de solución a partir de solución concentrada"
+      }
+    ]
+  },
+  "1148790188": {
+    "title": "Fracción Molar",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la fracción molar y fórmulas principales"
+      },
+      {
+        "tiempo": "01:14",
+        "subtema": "Ejercicio 1: Fracción molar de metanol y agua (datos en gramos)"
+      },
+      {
+        "tiempo": "01:52",
+        "subtema": "Conversión de gramos a moles (soluto y solvente)"
+      },
+      {
+        "tiempo": "03:34",
+        "subtema": "Cálculo de moles de la solución y fracción molar del soluto"
+      },
+      {
+        "tiempo": "04:35",
+        "subtema": "Cálculo de la fracción molar del solvente"
+      },
+      {
+        "tiempo": "05:04",
+        "subtema": "Ejercicio 2: Fracción molar de ácido clorhídrico a partir de porcentaje en masa"
+      },
+      {
+        "tiempo": "05:23",
+        "subtema": "Interpretación del porcentaje en masa y obtención de gramos de soluto y solvente"
+      },
+      {
+        "tiempo": "06:53",
+        "subtema": "Cálculo de moles de soluto y solvente en el segundo ejercicio"
+      },
+      {
+        "tiempo": "07:59",
+        "subtema": "Cálculo de moles de la solución y fracción molar del soluto en el segundo ejercicio"
+      }
+    ]
+  },
+  "1157290400": {
+    "title": "Hibridación",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la hibridación y regla de la sumatoria"
+      },
+      {
+        "tiempo": "00:46",
+        "subtema": "Cálculo de hibridación para el amoniaco (NH₃) - sp³"
+      },
+      {
+        "tiempo": "02:01",
+        "subtema": "Cálculo de hibridación para el agua (H₂O) - sp³"
+      },
+      {
+        "tiempo": "03:01",
+        "subtema": "Cálculo de hibridación para el metano (CH₄) - sp³"
+      },
+      {
+        "tiempo": "04:00",
+        "subtema": "Cálculo de hibridación para el tricloruro de boro (BCl₃) - sp²"
+      },
+      {
+        "tiempo": "04:54",
+        "subtema": "Hibridación con octeto expandido - introducción"
+      },
+      {
+        "tiempo": "05:16",
+        "subtema": "Ejemplo de octeto expandido: PCl₅ - sp³d"
+      },
+      {
+        "tiempo": "07:27",
+        "subtema": "Método alternativo para calcular hibridación en octeto expandido y SF₆ - sp³d²"
+      }
+    ]
+  },
+  "1157290434": {
+    "title": "Geometría Molecular y Electrónica",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción: definición de geometría molecular y geometría electrónica"
+      },
+      {
+        "tiempo": "00:47",
+        "subtema": "Nomenclatura ABE: átomo central, elementos circundantes y pares solitarios"
+      },
+      {
+        "tiempo": "01:29",
+        "subtema": "Ejemplo 1 - Amoniaco (NH₃): determinación de especie ABE y geometrías"
+      },
+      {
+        "tiempo": "05:08",
+        "subtema": "Tabla de especies sin pares solitarios y regla de igualdad entre geometrías"
+      },
+      {
+        "tiempo": "05:25",
+        "subtema": "Ejemplo 2 - Metano (CH₄): especie AB4 y geometría tetraédrica"
+      },
+      {
+        "tiempo": "08:04",
+        "subtema": "Ejemplo 3 - Agua (H₂O): especie AB2E2, geometría molecular angular y geometría electrónica tetraédrica"
+      }
+    ]
+  },
+  "1157290453": {
+    "title": "Estructura de Lewis",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la Estructura de Lewis"
+      },
+      {
+        "tiempo": "00:28",
+        "subtema": "Fórmula para calcular cantidad de enlaces (necesario, disponible)"
+      },
+      {
+        "tiempo": "00:50",
+        "subtema": "Regla del octeto"
+      },
+      {
+        "tiempo": "02:23",
+        "subtema": "Octeto incompleto (hidrógeno, boro, aluminio, grupo 2A)"
+      },
+      {
+        "tiempo": "04:46",
+        "subtema": "Octeto expandido (fósforo, arsénico, antimonio, azufre, selenio, telurio)"
+      },
+      {
+        "tiempo": "07:51",
+        "subtema": "Elementos que forman enlace doble o triple (grupo CONS)"
+      },
+      {
+        "tiempo": "08:44",
+        "subtema": "Ejemplo práctico: estructura de Lewis del amoniaco"
+      }
+    ]
+  },
+  "1157297236": {
+    "title": "Ácidos Oxácidos",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y presentación del tema: compuestos ternarios y cuaternarios"
+      },
+      {
+        "tiempo": "00:24",
+        "subtema": "Tipos de compuestos ternarios: ácidos, hidróxidos y sales neutras"
+      },
+      {
+        "tiempo": "01:23",
+        "subtema": "Definición y fórmula general de los ácidos oxácidos"
+      },
+      {
+        "tiempo": "02:19",
+        "subtema": "Ejemplo de formación del ácido sulfúrico"
+      },
+      {
+        "tiempo": "03:42",
+        "subtema": "Casos especiales: fósforo, arsénico, boro y antimonio (prefijos meta, piro y orto)"
+      },
+      {
+        "tiempo": "05:56",
+        "subtema": "Nomenclatura de los ácidos oxácidos: tradicional, IUPAC (STOP) y sistemático"
+      },
+      {
+        "tiempo": "07:42",
+        "subtema": "Ejercicios prácticos de nomenclatura: ácido sulfúrico y ácido hipocloroso"
+      }
+    ]
+  },
+  "1157297244": {
+    "title": "Hidróxidos",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Definición de hidróxidos y su formación"
+      },
+      {
+        "tiempo": "00:50",
+        "subtema": "Nomenclatura tradicional de hidróxidos"
+      },
+      {
+        "tiempo": "03:15",
+        "subtema": "Nomenclatura sistemática de hidróxidos"
+      },
+      {
+        "tiempo": "04:53",
+        "subtema": "Nomenclatura Stock de hidróxidos"
+      },
+      {
+        "tiempo": "06:07",
+        "subtema": "Resumen y conclusiones sobre hidróxidos"
+      }
+    ]
+  },
+  "1157297263": {
+    "title": "Sales Neutras",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a las sales neutras: definición y concepto"
+      },
+      {
+        "tiempo": "00:42",
+        "subtema": "Ejemplo 1: Formación del sulfato férrico"
+      },
+      {
+        "tiempo": "01:58",
+        "subtema": "Reacción de neutralización y liberación de agua"
+      },
+      {
+        "tiempo": "02:11",
+        "subtema": "Procedimiento paso a paso: formación del ácido e hidróxido para obtener la sal"
+      },
+      {
+        "tiempo": "04:03",
+        "subtema": "Ejemplo 2: Formación del clorato de potasio"
+      },
+      {
+        "tiempo": "06:01",
+        "subtema": "Ejemplo 3: Formación del nitrato de plata"
+      },
+      {
+        "tiempo": "07:30",
+        "subtema": "Conclusión: reglas de nomenclatura de las sales neutras"
+      }
+    ]
+  },
+  "1157297282": {
+    "title": "Sales Ácidas",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a las sales ácidas y definición general"
+      },
+      {
+        "tiempo": "00:39",
+        "subtema": "Nomenclatura de las sales ácidas"
+      },
+      {
+        "tiempo": "01:33",
+        "subtema": "Ejemplo 1: Carbonato ácido de sodio - formación del ácido carbónico"
+      },
+      {
+        "tiempo": "02:26",
+        "subtema": "Ejemplo 1: Carbonato ácido de sodio - combinación con hidróxido de sodio"
+      },
+      {
+        "tiempo": "03:20",
+        "subtema": "Condición mínima para formar una sal ácida"
+      },
+      {
+        "tiempo": "03:38",
+        "subtema": "Ejemplo 2: Fosfato ácido ferroso - formación del ácido fosfórico"
+      },
+      {
+        "tiempo": "04:46",
+        "subtema": "Ejemplo 2: Fosfato ácido ferroso - combinación con hidróxido ferroso"
+      },
+      {
+        "tiempo": "05:45",
+        "subtema": "Diferencia entre sales neutras y sales ácidas - resumen"
+      }
+    ]
+  },
+  "1157297301": {
+    "title": "Sales Básicas",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a las sales básicas y concepto de neutralización incompleta"
+      },
+      {
+        "tiempo": "00:30",
+        "subtema": "Ejemplo 1: Sulfato básico de aluminio - nomenclatura y prefijos"
+      },
+      {
+        "tiempo": "01:11",
+        "subtema": "Ejemplo 1: Reacción del ácido sulfúrico con hidróxido de aluminio"
+      },
+      {
+        "tiempo": "01:55",
+        "subtema": "Ejemplo 1: Formulación y cruce de valencias del sulfato básico de aluminio"
+      },
+      {
+        "tiempo": "02:49",
+        "subtema": "Ejemplo 2: Nitrato dibásico de níquel - nomenclatura y prefijos"
+      },
+      {
+        "tiempo": "03:07",
+        "subtema": "Ejemplo 2: Reacción del ácido nítrico con hidróxido de níquel"
+      },
+      {
+        "tiempo": "03:43",
+        "subtema": "Ejemplo 2: Formulación y cruce de valencias del nitrato dibásico de níquel"
+      },
+      {
+        "tiempo": "04:22",
+        "subtema": "Conclusión: Diferencias entre sales neutras, ácidas y básicas"
+      }
+    ]
+  },
+  "1157297324": {
+    "title": "Electrolitos y No Electrolitos",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción: definición de electrolitos y no electrolitos"
+      },
+      {
+        "tiempo": "00:41",
+        "subtema": "Lista de electrolitos fuertes y débiles"
+      },
+      {
+        "tiempo": "00:49",
+        "subtema": "Ácidos fuertes: halógenos y excepción del flúor"
+      },
+      {
+        "tiempo": "03:15",
+        "subtema": "Lista completa de ácidos fuertes (clorhídrico, nítrico, perclórico, sulfúrico)"
+      },
+      {
+        "tiempo": "04:17",
+        "subtema": "Ácidos débiles: fluorhídrico, orgánicos, carbónico, fosfórico, sulfuroso"
+      },
+      {
+        "tiempo": "05:15",
+        "subtema": "Bases fuertes: grupos 1A y 2A, nemotecnia 'señor cava'"
+      },
+      {
+        "tiempo": "06:52",
+        "subtema": "Bases débiles: amoniaco, anilina, nicotina, cafeína, morfina"
+      },
+      {
+        "tiempo": "07:52",
+        "subtema": "Diferencia fundamental entre electrolitos fuertes y débiles: disociación total vs parcial"
+      }
+    ]
+  },
+  "1157297343": {
+    "title": "Fórmula Mínima y Molecular con Gases",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción al tema: combinación de fórmula mínima/molecular con gases"
+      },
+      {
+        "tiempo": "00:35",
+        "subtema": "Presentación del ejercicio: datos del compuesto orgánico (porcentajes de C, H y O)"
+      },
+      {
+        "tiempo": "01:32",
+        "subtema": "Cálculo de la fórmula empírica (mínima): primer paso, división de porcentajes por masa atómica"
+      },
+      {
+        "tiempo": "03:34",
+        "subtema": "Uso de la calculadora para guardar valores en memoria (recomendación práctica)"
+      },
+      {
+        "tiempo": "05:26",
+        "subtema": "Selección del menor valor y división para obtener subíndices de la fórmula mínima"
+      },
+      {
+        "tiempo": "07:55",
+        "subtema": "Interpretación y escritura de la fórmula mínima resultante"
+      },
+      {
+        "tiempo": "08:13",
+        "subtema": "Cálculo de la fórmula molecular: determinación del factor n mediante peso molecular"
+      },
+      {
+        "tiempo": "08:50",
+        "subtema": "Aplicación de la ecuación de gases ideales para calcular el peso molecular"
+      }
+    ]
+  },
+  "1157297377": {
+    "title": "Estequiometría con Gases",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la Estequiometría con Gases"
+      },
+      {
+        "tiempo": "00:15",
+        "subtema": "Presentación del problema: bolsas de aire y descomposición de azida de sodio"
+      },
+      {
+        "tiempo": "01:00",
+        "subtema": "Identificación de datos del problema y balanceo de la reacción"
+      },
+      {
+        "tiempo": "02:00",
+        "subtema": "Aplicación de la ecuación de gases ideales para calcular moles de nitrógeno"
+      },
+      {
+        "tiempo": "03:30",
+        "subtema": "Cálculo estequiométrico: conversión de moles de nitrógeno a gramos de azida de sodio"
+      },
+      {
+        "tiempo": "05:56",
+        "subtema": "Segundo problema: descomposición de nitrato de potasio"
+      },
+      {
+        "tiempo": "06:47",
+        "subtema": "Uso del volumen molar estándar (TPE) como método alternativo"
+      },
+      {
+        "tiempo": "07:18",
+        "subtema": "Cálculo de la masa de nitrato de potasio usando volumen molar estándar"
+      },
+      {
+        "tiempo": "08:08",
+        "subtema": "Aclaración sobre el coeficiente estequiométrico y el volumen molar estándar"
+      }
+    ]
+  },
+  "1157297396": {
+    "title": "Diamagnetismo y Paramagnetismo",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción al diamagnetismo y paramagnetismo"
+      },
+      {
+        "tiempo": "00:23",
+        "subtema": "Orbitales y espines: estructura básica del subnivel p"
+      },
+      {
+        "tiempo": "01:03",
+        "subtema": "Criterio para identificar una sustancia paramagnética"
+      },
+      {
+        "tiempo": "02:18",
+        "subtema": "Ejemplo del calcio: criterio para identificar una sustancia diamagnética"
+      },
+      {
+        "tiempo": "04:08",
+        "subtema": "Grupos de la tabla periódica con propiedades diamagnéticas"
+      }
+    ]
+  },
+  "1158564891": {
+    "title": "Sales Binarias",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la nomenclatura inorgánica"
+      },
+      {
+        "tiempo": "00:28",
+        "subtema": "Clasificación de compuestos por cantidad de elementos (binarios, terciarios, cuaternarios)"
+      },
+      {
+        "tiempo": "00:53",
+        "subtema": "Clasificación de elementos: metales, no metales y semimetales"
+      },
+      {
+        "tiempo": "01:51",
+        "subtema": "Sales binarias: Sales iónicas (metal + no metal)"
+      },
+      {
+        "tiempo": "02:21",
+        "subtema": "Sales binarias: Sales covalentes (no metal + no metal)"
+      },
+      {
+        "tiempo": "02:53",
+        "subtema": "Óxidos metálicos y anhídros (oxígeno + metal / no metal)"
+      },
+      {
+        "tiempo": "03:18",
+        "subtema": "Hidruros metálicos y ácidos (hidrógeno + metal / no metal)"
+      },
+      {
+        "tiempo": "03:54",
+        "subtema": "Desarrollo detallado de las Sales Iónicas: conformación y valencias"
+      },
+      {
+        "tiempo": "05:18",
+        "subtema": "Ejemplo práctico: Cloruro de sodio (NaCl) y cruce de valencias"
+      },
+      {
+        "tiempo": "05:51",
+        "subtema": "Tres tipos de nomenclatura: tradicional, sistemática y stock"
+      },
+      {
+        "tiempo": "06:56",
+        "subtema": "Reglas de la nomenclatura tradicional para sales iónicas"
+      }
+    ]
+  },
+  "1158564905": {
+    "title": "Oxigenados",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a los compuestos oxigenados (óxidos y anhídros)"
+      },
+      {
+        "tiempo": "00:52",
+        "subtema": "Óxidos metálicos: definición, fórmula y valencia del oxígeno"
+      },
+      {
+        "tiempo": "02:05",
+        "subtema": "Ejemplos de fórmulas de óxidos (Na, Fe, K, Cu)"
+      },
+      {
+        "tiempo": "02:22",
+        "subtema": "Nomenclatura tradicional de óxidos"
+      },
+      {
+        "tiempo": "05:26",
+        "subtema": "Nomenclatura sistemática de óxidos"
+      },
+      {
+        "tiempo": "07:24",
+        "subtema": "Nomenclatura Stock de óxidos"
+      },
+      {
+        "tiempo": "08:57",
+        "subtema": "Introducción a los anhídros (óxidos no metálicos)"
+      }
+    ]
+  },
+  "1158564926": {
+    "title": "Hidrogenados",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Nomenclatura sistemática de hidruros metálicos"
+      },
+      {
+        "tiempo": "01:27",
+        "subtema": "Nomenclatura Stock de hidruros metálicos"
+      },
+      {
+        "tiempo": "02:45",
+        "subtema": "Introducción a los hidruros no metálicos y ácidos hidrácidos"
+      },
+      {
+        "tiempo": "04:00",
+        "subtema": "Nomenclatura tradicional de hidruros no metálicos (como hidruro y como ácido)"
+      },
+      {
+        "tiempo": "06:28",
+        "subtema": "Nomenclatura sistemática de hidruros no metálicos"
+      },
+      {
+        "tiempo": "07:36",
+        "subtema": "Nomenclatura Stock de hidruros no metálicos"
+      }
+    ]
+  },
+  "1162679412": {
+    "title": "Hidrocarburos Cíclicos",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a los hidrocarburos cíclicos: definición y tipos (cicloalcanos, cicloalquenos, cicloalquinos)"
+      },
+      {
+        "tiempo": "00:47",
+        "subtema": "Relación de los ciclos con figuras geométricas y uso de prefijos de cantidad"
+      },
+      {
+        "tiempo": "01:31",
+        "subtema": "Tipos de cicloalcanos: simples y ramificados"
+      },
+      {
+        "tiempo": "01:53",
+        "subtema": "Nomenclatura de cicloalcanos simples (sin sustituyentes)"
+      },
+      {
+        "tiempo": "03:14",
+        "subtema": "Nomenclatura de cicloalcanos ramificados con un sustituyente"
+      },
+      {
+        "tiempo": "05:20",
+        "subtema": "Nomenclatura de cicloalcanos con dos sustituyentes diferentes (regla alfabética y menor numeración)"
+      },
+      {
+        "tiempo": "07:09",
+        "subtema": "Nomenclatura de cicloalcanos con dos sustituyentes iguales"
+      },
+      {
+        "tiempo": "08:15",
+        "subtema": "Nomenclatura de cicloalcanos con más de dos sustituyentes"
+      }
+    ]
+  },
+  "1162679426": {
+    "title": "Alcoholes",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a los alcoholes y definición del grupo hidroxilo (OH)"
+      },
+      {
+        "tiempo": "00:52",
+        "subtema": "Clasificación de los alcoholes: primario, secundario y terciario"
+      },
+      {
+        "tiempo": "03:32",
+        "subtema": "Clasificación por cantidad de grupos OH: alcoholes y polialcoholes"
+      },
+      {
+        "tiempo": "03:47",
+        "subtema": "Nomenclatura de los alcoholes: reglas generales y sufijo -ol"
+      },
+      {
+        "tiempo": "05:58",
+        "subtema": "Ejemplos prácticos de nomenclatura de alcoholes"
+      }
+    ]
+  },
+  "1162679431": {
+    "title": "Alcadienos y Eninos",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y presentación del tema"
+      },
+      {
+        "tiempo": "00:26",
+        "subtema": "Definición de alcadienos y polienos"
+      },
+      {
+        "tiempo": "02:14",
+        "subtema": "Clasificación de los alcadienos (aislados, conjugados y acumulados)"
+      },
+      {
+        "tiempo": "03:23",
+        "subtema": "Nomenclatura de alcadienos: elección de la cadena principal"
+      },
+      {
+        "tiempo": "06:01",
+        "subtema": "Ejemplo práctico 1: nombrar un alcadieno con sustituyentes"
+      },
+      {
+        "tiempo": "07:17",
+        "subtema": "Ejemplo práctico 2: identificación de cadena principal en estructura más compleja"
+      }
+    ]
+  },
+  "1162680653": {
+    "title": "Alcanos, Alquenos y Alquinos",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a los Hidrocarburos"
+      },
+      {
+        "tiempo": "00:31",
+        "subtema": "Clasificación según tipo de enlace: Alcanos, Alquenos y Alquinos"
+      },
+      {
+        "tiempo": "01:30",
+        "subtema": "Clasificación según estructura: lineal, ramificada, cíclica y aromática"
+      },
+      {
+        "tiempo": "02:16",
+        "subtema": "Saturados e insaturados"
+      },
+      {
+        "tiempo": "03:30",
+        "subtema": "Introducción a los Alcanos: fórmula general, hibridación y geometría"
+      },
+      {
+        "tiempo": "05:00",
+        "subtema": "Nomenclatura de los Alcanos: reglas generales"
+      },
+      {
+        "tiempo": "06:17",
+        "subtema": "Ejemplos prácticos de nomenclatura de Alcanos"
+      }
+    ]
+  },
+  "1162680663": {
+    "title": "Introducción a la Química Orgánica",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y presentación del curso"
+      },
+      {
+        "tiempo": "00:42",
+        "subtema": "Generalidades de la Química Orgánica"
+      },
+      {
+        "tiempo": "02:01",
+        "subtema": "Características del carbono"
+      },
+      {
+        "tiempo": "03:50",
+        "subtema": "Tetravalencia del carbono y regla del octeto"
+      },
+      {
+        "tiempo": "06:36",
+        "subtema": "Tipos de enlaces del carbono (simple, doble y triple)"
+      },
+      {
+        "tiempo": "07:38",
+        "subtema": "Hibridaciones del carbono (sp3, sp2, sp)"
+      }
+    ]
+  },
+  "1172255846": {
+    "title": "Éteres",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y definición de éteres"
+      },
+      {
+        "tiempo": "01:44",
+        "subtema": "Diferencia entre éteres y ésteres"
+      },
+      {
+        "tiempo": "02:32",
+        "subtema": "Clasificación de éteres: simétricos y asimétricos"
+      },
+      {
+        "tiempo": "03:02",
+        "subtema": "Nomenclatura de éteres simétricos"
+      },
+      {
+        "tiempo": "04:56",
+        "subtema": "Nomenclatura de éteres asimétricos"
+      },
+      {
+        "tiempo": "06:40",
+        "subtema": "Nomenclatura IUPAC: éteres como sustituyentes alcoxialcanos"
+      }
+    ]
+  },
+  "1172255865": {
+    "title": "Aminas",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a las aminas: definición y derivados del amoniaco"
+      },
+      {
+        "tiempo": "00:48",
+        "subtema": "Diferencia entre aminas y amidas"
+      },
+      {
+        "tiempo": "01:35",
+        "subtema": "Clasificación de las aminas: primaria, secundaria y terciaria"
+      },
+      {
+        "tiempo": "02:56",
+        "subtema": "Nomenclatura de aminas primarias"
+      },
+      {
+        "tiempo": "05:16",
+        "subtema": "Nomenclatura de aminas secundarias y terciarias"
+      },
+      {
+        "tiempo": "08:03",
+        "subtema": "Nomenclatura de diaminas y poliaminas"
+      }
+    ]
+  },
+  "1172255891": {
+    "title": "Ácidos Carboxílicos",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a los Ácidos Carboxílicos y grupo funcional carboxilo"
+      },
+      {
+        "tiempo": "01:10",
+        "subtema": "Derivados de los ácidos carboxílicos (ésteres, amidas y otros)"
+      },
+      {
+        "tiempo": "02:23",
+        "subtema": "Diferencia entre grupo carboxilo y grupo carbonilo"
+      },
+      {
+        "tiempo": "03:00",
+        "subtema": "Clasificación y nomenclatura IUPAC de ácidos carboxílicos lineales"
+      },
+      {
+        "tiempo": "04:29",
+        "subtema": "Nombres comunes de los ácidos carboxílicos"
+      },
+      {
+        "tiempo": "05:49",
+        "subtema": "Nomenclatura de ácidos carboxílicos con ramificaciones"
+      }
+    ]
+  },
+  "1172255982": {
+    "title": "Haluros de Alquilo",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a los Haluros de Alquilo"
+      },
+      {
+        "tiempo": "00:19",
+        "subtema": "Halógenos del grupo 17: flúor, cloro, bromo y yodo"
+      },
+      {
+        "tiempo": "01:12",
+        "subtema": "Nomenclatura de haluros de alquilo: dos formas de nombrar"
+      },
+      {
+        "tiempo": "02:51",
+        "subtema": "Primera forma: nomenclatura como bromuro de alquilo (ejemplo con 3 carbonos)"
+      },
+      {
+        "tiempo": "03:25",
+        "subtema": "Segunda forma: nomenclatura como halógeno-sustituyente en alcano"
+      },
+      {
+        "tiempo": "04:03",
+        "subtema": "Ejemplo 2: cadena con múltiples sustituyentes (5-cloro-2-metilheptano)"
+      },
+      {
+        "tiempo": "05:24",
+        "subtema": "Ejemplo 3: haluro con doble enlace (alqueno) - 4-cloro-3,3-difluoropenteno"
+      },
+      {
+        "tiempo": "06:57",
+        "subtema": "Ejemplo 4: alqueno con múltiples sustituyentes (dicloro-trimetilhepteno)"
+      },
+      {
+        "tiempo": "08:31",
+        "subtema": "Ejemplos finales: aplicación de ambas formas de nomenclatura"
+      }
+    ]
+  },
+  "1172256002": {
+    "title": "Amidas",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a las amidas y su definición como derivados de ácidos carboxílicos"
+      },
+      {
+        "tiempo": "01:16",
+        "subtema": "Clasificación de las amidas (no sustituidas, monosustituidas y disustituidas)"
+      },
+      {
+        "tiempo": "02:43",
+        "subtema": "Nomenclatura de amidas no sustituidas"
+      },
+      {
+        "tiempo": "04:57",
+        "subtema": "Nomenclatura de amidas cíclicas"
+      },
+      {
+        "tiempo": "05:44",
+        "subtema": "Nomenclatura de amidas sustituidas (uso del prefijo N mayúscula)"
+      },
+      {
+        "tiempo": "08:07",
+        "subtema": "Ejemplos adicionales de nomenclatura con insaturaciones y ramificaciones en la cadena principal"
+      }
+    ]
+  },
+  "1172256031": {
+    "title": "Ésteres",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a los ésteres y su grupo funcional"
+      },
+      {
+        "tiempo": "01:17",
+        "subtema": "Formación de ésteres: reacción de esterificación"
+      },
+      {
+        "tiempo": "02:32",
+        "subtema": "Nomenclatura de ésteres"
+      },
+      {
+        "tiempo": "03:54",
+        "subtema": "Ejemplos de nomenclatura de ésteres"
+      }
+    ]
+  },
+  "1172256064": {
+    "title": "Aldehídos y Cetonas",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción al tema de Aldehídos y Cetonas"
+      },
+      {
+        "tiempo": "00:19",
+        "subtema": "Grupo carbonilo: definición y diferencia con grupo carboxilo"
+      },
+      {
+        "tiempo": "00:57",
+        "subtema": "Definición de Aldehído (grupo carbonilo primario o terminal)"
+      },
+      {
+        "tiempo": "01:19",
+        "subtema": "Definición de Cetona (grupo carbonilo central o secundario)"
+      },
+      {
+        "tiempo": "02:14",
+        "subtema": "Nomenclatura de Aldehídos (sufijo -al): ejemplos propanal y hexanal"
+      },
+      {
+        "tiempo": "04:03",
+        "subtema": "Nomenclatura de Cetonas (sufijo -ona): ejemplos pentanona y 2-butanona"
+      },
+      {
+        "tiempo": "05:42",
+        "subtema": "Nomenclatura cuando aldehídos y cetonas actúan como sustituyentes"
+      },
+      {
+        "tiempo": "06:22",
+        "subtema": "Ejemplos adicionales de cetonas con cadenas de 7 carbonos (heptanona)"
+      },
+      {
+        "tiempo": "07:09",
+        "subtema": "Nomenclatura de dialdehídos (ejemplo: butanodial)"
+      },
+      {
+        "tiempo": "07:41",
+        "subtema": "Nomenclatura de compuestos con cetona y sustituyentes (ejemplo: 5-metil-2-hexanona)"
+      },
+      {
+        "tiempo": "08:16",
+        "subtema": "Ejemplos de aldehídos lineales y regla de numeración desde el carbono 1"
+      }
+    ]
+  },
+  "1172256089": {
+    "title": "Reacciones en Química Orgánica",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a las reacciones orgánicas y sus cuatro grandes grupos"
+      },
+      {
+        "tiempo": "01:00",
+        "subtema": "Reacción de sustitución (desplazamiento) y reacciones de halogenación"
+      },
+      {
+        "tiempo": "03:09",
+        "subtema": "Ejemplo práctico: reacción de propano con cloro molecular"
+      },
+      {
+        "tiempo": "05:19",
+        "subtema": "Reacción de adición y reacción de hidrogenación"
+      },
+      {
+        "tiempo": "06:04",
+        "subtema": "Ejemplo práctico: hidrogenación del propeno a propano"
+      },
+      {
+        "tiempo": "08:00",
+        "subtema": "Reacción de eliminación y generación de insaturaciones"
+      },
+      {
+        "tiempo": "09:23",
+        "subtema": "Ejemplo práctico: eliminación del 2-cloruro de propano con hidróxido de potasio"
+      }
+    ]
+  },
+  "1192078963": {
+    "title": "Resonancia",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción al concepto de resonancia"
+      },
+      {
+        "tiempo": "00:27",
+        "subtema": "Ejemplo 1: Dióxido de azufre (SO₂)"
+      },
+      {
+        "tiempo": "01:02",
+        "subtema": "Regla de la resonancia: solo se mueven los enlaces, no los elementos"
+      },
+      {
+        "tiempo": "01:32",
+        "subtema": "Ejemplo 2: Ion nitrato (NO₃⁻)"
+      },
+      {
+        "tiempo": "01:58",
+        "subtema": "Ejemplo 3: Benceno (C₆H₆)"
+      }
+    ]
+  },
+  "1196073962": {
+    "title": "Molaridad",
+    "timestamps": [
+      {
+        "tiempo": "00:07",
+        "subtema": "Introducción a la molaridad y su definición"
+      },
+      {
+        "tiempo": "00:33",
+        "subtema": "Fórmulas de molaridad (con moles, masa y volumen en litros/mililitros)"
+      },
+      {
+        "tiempo": "01:37",
+        "subtema": "Fórmula de molaridad con concentración porcentual y densidad"
+      },
+      {
+        "tiempo": "02:16",
+        "subtema": "Ejercicio 1: Molaridad con moles y volumen en litros (HCl)"
+      },
+      {
+        "tiempo": "03:25",
+        "subtema": "Ejercicio 2: Molaridad con masa y volumen en mililitros (NaOH)"
+      },
+      {
+        "tiempo": "06:16",
+        "subtema": "Ejercicio 3: Molaridad con concentración porcentual (HNO₃)"
+      }
+    ]
+  },
+  "1196073964": {
+    "title": "Polaridad",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la polaridad molecular"
+      },
+      {
+        "tiempo": "00:22",
+        "subtema": "Moléculas polares: átomo central con pares solitarios (ejemplo: amoníaco)"
+      },
+      {
+        "tiempo": "01:12",
+        "subtema": "Moléculas apolares: sin pares solitarios y sustituyentes iguales (ejemplo: metano)"
+      },
+      {
+        "tiempo": "01:46",
+        "subtema": "Moléculas polares con pares solitarios (ejemplo: agua)"
+      },
+      {
+        "tiempo": "02:30",
+        "subtema": "Moléculas apolares sin pares solitarios (ejemplo: borina)"
+      },
+      {
+        "tiempo": "03:20",
+        "subtema": "Moléculas polares con par solitario en átomo central (ejemplo: dióxido de azufre)"
+      },
+      {
+        "tiempo": "04:22",
+        "subtema": "Moléculas polares con sustituyentes diferentes en átomo central (ejemplo: cloruro de metilo)"
+      },
+      {
+        "tiempo": "05:27",
+        "subtema": "Polaridad en moléculas diatómicas: elementos diferentes vs elementos iguales"
+      },
+      {
+        "tiempo": "06:06",
+        "subtema": "Electronegatividad y su relación con la polaridad (ejemplo: ácido clorhídrico y ácido fluorhídrico)"
+      },
+      {
+        "tiempo": "07:34",
+        "subtema": "Moléculas diatómicas apolares: elementos en estado molecular con igual electronegatividad"
+      }
+    ]
+  },
+  "1196773807": {
+    "title": "Moléculas",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción: moléculas, moles, gramos y número de Avogadro"
+      },
+      {
+        "tiempo": "00:43",
+        "subtema": "Ejercicio 1: Relación gramos-moléculas (amoníaco)"
+      },
+      {
+        "tiempo": "02:03",
+        "subtema": "Ejercicio 2: Relación moles-moléculas (glucosa)"
+      },
+      {
+        "tiempo": "04:42",
+        "subtema": "Ejercicio 3: Relación moléculas-moles (oxígeno gaseoso)"
+      },
+      {
+        "tiempo": "06:38",
+        "subtema": "Ejercicio 4: Relación moléculas-gramos (agua)"
+      }
+    ]
+  },
+  "1196773815": {
+    "title": "Relación Moles - Átomos - Gramos",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la relación Moles-Átomos y el Número de Avogadro"
+      },
+      {
+        "tiempo": "00:56",
+        "subtema": "Ejercicio 1: Convertir átomos de sodio a moles"
+      },
+      {
+        "tiempo": "03:11",
+        "subtema": "Ejercicio 2: Convertir gramos de calcio a átomos (relación átomos-gramos)"
+      },
+      {
+        "tiempo": "05:22",
+        "subtema": "Ejercicio 3: Calcular átomos de un elemento específico (nitrógeno) en un compuesto (nitrato de calcio) a partir de gramos"
+      }
+    ]
+  },
+  "1196773825": {
+    "title": "Relación Moles - Gramos",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción y concepto de relación moles-gramos"
+      },
+      {
+        "tiempo": "00:44",
+        "subtema": "Ejercicio 1: Calcular moles de calcio a partir de 25 gramos"
+      },
+      {
+        "tiempo": "03:46",
+        "subtema": "Ejercicio 2: Calcular gramos de sodio a partir de 0,25 moles"
+      }
+    ]
+  },
+  "1202941423": {
+    "title": "Estequiometría con Gases (Ejercicios)",
+    "timestamps": [
+      {
+        "tiempo": "00:00",
+        "subtema": "Introducción a la estequiometría con gases"
+      },
+      {
+        "tiempo": "00:29",
+        "subtema": "Concepto de TPE (Temperatura y Presión Estándares) y volumen molar estándar"
+      },
+      {
+        "tiempo": "01:45",
+        "subtema": "Ejercicio 1: Descomposición del nitrato de potasio - Planteamiento y balanceo de ecuación"
+      },
+      {
+        "tiempo": "02:48",
+        "subtema": "Ejercicio 1: Resolución mediante regla de tres con volumen molar estándar"
+      },
+      {
+        "tiempo": "04:49",
+        "subtema": "Ejercicio 1: Cálculo del peso molecular del KNO₃ y resultado final"
+      },
+      {
+        "tiempo": "06:22",
+        "subtema": "Ejercicio 2: Combustión del metano - Planteamiento con condiciones no estándar (T y P dadas)"
+      },
+      {
+        "tiempo": "07:45",
+        "subtema": "Introducción a la ecuación de los gases ideales (PV = nRT)"
+      }
+    ]
+  }
+}
